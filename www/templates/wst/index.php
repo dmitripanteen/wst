@@ -34,7 +34,13 @@ $user = JFactory::getUser();
 <body class="<?php if(! $HOMEPAGE):?>content-page<?php endif;?> page-option-<?=$app->input->get('option');?> page-view-<?=$app->input->get('view');?>">
 	<div class="page-main-content">
         <jdoc:include type="message" />
-		<jdoc:include type="modules" name="navbar" />
+        <header>
+            <div id="mainmenu">
+                <img class="header-logo"
+                     src="/templates/wst/images/wst-logo.svg">
+		        <jdoc:include type="modules" name="navbar" />
+            </div>
+        </header>
 		<jdoc:include type="modules" name="slider" />
 		<?php
 		$currPageSubitems = $menu->getItems('parent_id', $currPage->id);
@@ -45,18 +51,7 @@ $user = JFactory::getUser();
 	</div>
 	<footer>
 		<div class="container">
-			<div class="logos">
-				<div class="footer-logo driving-logo">
-					<a class="link v-align" href="/">
-						<img class="" src="/images/_default/logo-large.png"/>
-					</a>
-				</div>
-                <div class="footer-logo pull-right">
-                    <a class="link v-align" href="/" target="_blank">
-                        <img class="" src="/templates/dsfl/assets/img/logos/logo_ford-v2.png" style="max-height:37px;">
-                    </a>
-                </div>
-			</div>
+            <jdoc:include type="modules" name="footer"/>
 		</div>
 	</footer>
 <?$this->addStyleSheet($template.'/assets/css/main.css?v=1');?>

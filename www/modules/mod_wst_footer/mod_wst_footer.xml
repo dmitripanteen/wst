@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+    <name>mod_wst_footer</name>
+    <author>Dmitri Pantelei</author>
+    <creationDate>November 2021</creationDate>
+    <version>3.0.0</version>
+    <description>MOD_WST_FOOTER_XML_DESCRIPTION</description>
+    <files>
+        <filename module="mod_wst_footer">mod_wst_footer.php</filename>
+        <folder>tmpl</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/mod_wst_footer.ini</language>
+        <language tag="en-GB">language/en-GB/mod_wst_footer.sys.ini</language>
+        <language tag="ru-RU">language/ru-RU/mod_wst_footer.ini</language>
+        <language tag="ru-RU">language/ru-RU/mod_wst_footer.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="link1">
+                <field
+                        name="link1_text"
+                        type="text"
+                        label="MOD_WST_FOOTER_LINK_TEXT_LABEL"
+                />
+                <field
+                        name="link1_url"
+                        type="text"
+                        label="MOD_WST_FOOTER_LINK_URL_LABEL"
+                />
+                <field
+                        name="link1_extra_text"
+                        type="editor"
+                        label="MOD_WST_FOOTER_EXTRA_TEXT_LABEL"
+                        filter="raw"
+                />
+            </fieldset>
+            <fieldset name="link2">
+                <field
+                        name="link2_text"
+                        type="text"
+                        label="MOD_WST_FOOTER_LINK_TEXT_LABEL"
+                />
+                <field
+                        name="link2_url"
+                        type="text"
+                        label="MOD_WST_FOOTER_LINK_URL_LABEL"
+                />
+                <field
+                        name="link2_extra_text"
+                        type="editor"
+                        label="MOD_WST_FOOTER_EXTRA_TEXT_LABEL"
+                        filter="raw"
+                />
+            </fieldset>
+            <fieldset name="link3">
+                <field
+                        name="link3_text"
+                        type="text"
+                        label="MOD_WST_FOOTER_LINK_TEXT_LABEL"
+                />
+                <field
+                        name="link3_url"
+                        type="text"
+                        label="MOD_WST_FOOTER_LINK_URL_LABEL"
+                />
+                <field
+                        name="link3_extra_text"
+                        type="editor"
+                        label="MOD_WST_FOOTER_EXTRA_TEXT_LABEL"
+                        filter="raw"
+                />
+            </fieldset>
+            <fieldset name="link4">
+                <field
+                        name="link4_text"
+                        type="text"
+                        label="MOD_WST_FOOTER_LINK_TEXT_LABEL"
+                />
+                <field
+                        name="link4_url"
+                        type="text"
+                        label="MOD_WST_FOOTER_LINK_URL_LABEL"
+                />
+                <field
+                        name="link4_extra_text"
+                        type="editor"
+                        label="MOD_WST_FOOTER_EXTRA_TEXT_LABEL"
+                        filter="raw"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
