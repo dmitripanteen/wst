@@ -36,8 +36,10 @@ $user = JFactory::getUser();
         <jdoc:include type="message" />
         <header>
             <div id="mainmenu">
-                <img class="header-logo"
-                     src="/templates/wst/images/wst-logo.svg">
+                <a href="/">
+                    <img class="header-logo"
+                         src="/templates/wst/images/wst-logo.svg">
+                </a>
 		        <jdoc:include type="modules" name="navbar" />
             </div>
         </header>
