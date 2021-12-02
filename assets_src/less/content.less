@@ -1,0 +1,60 @@
+.article {
+  font-family: Montserrat;
+  &.full-width {
+    padding: 129px 0;
+    min-width: 840px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    .article-image {
+      flex: 1;
+      img{
+        max-width: 80%;
+      }
+    }
+    .article-text {
+      flex: 2;
+      h1 {
+        font-family: 'Montserrat Bold';
+        text-transform: uppercase;
+        margin: 0 0 20px 0;
+        padding: 0;
+        font-size: 20px;
+      }
+      p{
+        margin: 0 0 10px 0;
+        padding: 0;
+        font-size: 16px;
+        text-align: justify;
+      }
+    }
+  }
+
+  &.contacts{
+    padding: 129px 0;
+    min-width: 840px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    .contact-data{
+      flex: 3;
+      .item{
+        display: flex;
+        margin-bottom: 18px;
+        i{
+          font-size: 20px;
+        }
+        p{
+          max-width: 80%;
+          font-family: 'Montserrat SemiBold';
+          font-size: 18px;
+          margin: 0 0 0 10px;
+        }
+      }
+    }
+    .contact-map{
+      flex: 7;
+    }
+  }
+}
