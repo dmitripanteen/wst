@@ -4,6 +4,7 @@
         "guzzlehttp/guzzle": "^7.0",
         "ext-zip": "*",
         "ext-json": "*",
-        "ext-curl": "*"
+        "ext-curl": "*",
+        "php": "8.0"
     }
 }
