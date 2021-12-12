@@ -61,15 +61,10 @@ class ItemsModel extends ListModel
             ->from($db->quoteName('#__catalogue_item', 'c'));
 
         // Add the list ordering clause.
-        $orderCol = $this->state->get('list.ordering', 'c.title');
+        $orderCol = $this->state->get('list.ordering', 'c.ordering');
         $orderDirn = $this->state->get('list.direction', 'ASC');
 
-        if ($orderCol === 'c.ordering') {
-            $ordering = [
-                $db->quoteName('c.ordering') . ' ' . $db->escape($orderDirn),
-            ];
-            $query->order($ordering);
-        }
+        $query->order($db->escape($orderCol) . ' ' . $db->escape($orderDirn));
 
         return $query;
     }
@@ -82,7 +77,7 @@ class ItemsModel extends ListModel
         return parent::getTable($type, $prefix, $config);
     }
 
-    protected function populateState($ordering = 'c.title', $direction = 'asc')
+    protected function populateState($ordering = 'c.ordering', $direction = 'asc')
     {
         $this->setState('params', ComponentHelper::getParams('com_catalogue'));
         parent::populateState($ordering, $direction);
