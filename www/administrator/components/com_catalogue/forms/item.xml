@@ -34,6 +34,13 @@
                 required="true"
         />
         <field
+                name="catalogue_subheader"
+                type="text"
+                label="COM_CATALOGUE_FIELD_CATALOGUE_SUBHEADER_LABEL"
+                size="2000"
+                required="true"
+        />
+        <field
                 name="state"
                 type="list"
                 label="JSTATUS"
