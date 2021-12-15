@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_CATALOGUE_ITEMS_VIEW_DEFAULT_TITLE" option="COM_CATALOGUE_ITEMS_VIEW_DEFAULT_OPTION">
+		<help
+			key = "Menu_Item:_Catalogue_Items"
+		/>
+		<message>
+			<![CDATA[COM_CATALOGUE_ITEMS_VIEW_DEFAULT_DESC]]>
+		</message>
+	</layout>
+	<fields name="params">
+		<fieldset name="params">
+			<field
+					name="bg_image"
+					type="media"
+					label="COM_CATALOGUE_FIELD_IMAGE_LABEL"
+					directory="images"
+			/>
+		</fieldset>
+	</fields>
+</metadata>

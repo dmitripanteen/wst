@@ -21,21 +21,13 @@ $template_url = $this->baseurl.'/templates/'.$this->template.'/';
     <script src="<?=$template_url;?>assets/js/main.js?v=1"></script>
 </head>
 <body>
-    <footer>
-        <div class="container">
-            <div class="logos">
-                <div class="footer-logo driving-logo">
-                    <a class="link v-align" href="/">
-                        <img class="" src="/images/_default/logo-large.png"/>
-                    </a>
-                </div>
-                <div class="footer-logo pull-right">
-                    <a class="link v-align" href="/" target="_blank">
-                        <img class="" src="/templates/dsfl/assets/img/logos/logo_ford-v2.png" style="max-height:37px;">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+<div>
+    <?=JText::_('JERROR_ERROR');?> <?=$this->error->getCode();?>: <?=$this->error->getMessage();?>
+    <pre style="white-space: pre-line;">
+                                    Erorr <?=$this->error->getCode();?>: <?=$this->error->getMessage();?><br>
+                                    File: <?=$this->error->getFile();?> (<?=$this->error->getLine();?>)<br>
+        <?=$this->error->getTraceAsString();?>
+		                    </pre>
+</div>
 </body>
 </html>

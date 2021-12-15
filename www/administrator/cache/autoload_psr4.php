@@ -119,4 +119,5 @@ return [
 	'Joomla\\Plugin\\User\\Terms\\' => [JPATH_PLUGINS . '/user/terms/src'],
 	'Joomla\\Plugin\\User\\Token\\' => [JPATH_PLUGINS . '/user/token/src'],
 	'Wst\\Component\\Catalogue\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_catalogue/src'],
+	'Wst\\Component\\Catalogue\\Site\\' => [JPATH_SITE . '/components/com_catalogue/src'],
 ];
