@@ -26,7 +26,17 @@ class DisplayController extends BaseController
         $this->input->set('view', $viewName);
 
         $view = $this->getView($viewName, $viewFormat);
-        $view->setModel($this->getModel('Items'), true);
+        switch ($viewName)
+        {
+            case 'item':
+                $model = $this->getModel('Item');
+                break;
+            case 'items':
+            default:
+                $model = $this->getModel('Items');
+                break;
+        }
+        $view->setModel($model, true);
 
         $view->document = $document;
         $view->display();

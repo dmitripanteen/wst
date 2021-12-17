@@ -1,6 +1,8 @@
 <?php
 
 defined('_JEXEC') or die('Restricted Access');
+
+use Joomla\CMS\Router\Route;
 $bgImage = $this->params->get('bg_image');
 ?>
 <div id="slider" class="article-slider">
@@ -25,7 +27,8 @@ $bgImage = $this->params->get('bg_image');
                         strpos($image->url, '#')
                     );
             } ?>
-            <a href="#" class="catalogue-item">
+            <a href="<?php echo Route::_('index.php?option=com_catalogue&view=item&Itemid=102&id='.$item->id);?>"
+            class="catalogue-item">
                 <div class="item-image">
                     <img src="<?php echo $mainImage; ?>">
                 </div>
