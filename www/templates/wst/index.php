@@ -32,7 +32,7 @@ $user = JFactory::getUser();
 	<jdoc:include type="head" />
 </head>
 <body class="<?php if(! $homepage):?>content-page<?php endif;?> page-option-<?=$app->input->get('option');?> page-view-<?=$app->input->get('view');?>">
-	<div class="page-main-content <?php if ($homepage):?> homepage<?php endif;
+	<div class="page-main-content<?php if ($homepage):?> homepage<?php endif;
 	?>">
         <jdoc:include type="message" />
         <header>
@@ -54,6 +54,13 @@ $user = JFactory::getUser();
         <jdoc:include type="component" />
 	</div>
     <jdoc:include type="modules" name="pre-footer"/>
+    <?php if ($homepage):?>
+    <div class="homepage-art">
+        <div class="brand-text">
+            <span>WST</span>
+        </div>
+    </div>
+    <?php endif;?>
 	<footer>
 		<div class="container">
             <jdoc:include type="modules" name="footer"/>
