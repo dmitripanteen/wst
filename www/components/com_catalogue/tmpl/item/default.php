@@ -22,8 +22,12 @@ defined('_JEXEC') or die('Restricted Access');
         <div class="specifications">
             <?php foreach ($this->item->specifications as $specification):?>
             <div class="specification">
-                <div class="sp-title"><?php echo $specification->name;?></div>:
-                <div class="sp-descr"><?php echo $specification->value;?></div>
+                <div class="sp-title"><?php echo $specification->name;?></div>
+                <?php if ($specification->value):?>
+                : <div class="sp-descr">
+                    <?php echo $specification->value;?>
+                </div>
+                <?php endif;?>
             </div>
             <?php endforeach;?>
         </div>

@@ -26,6 +26,9 @@ class HtmlView extends BaseHtmlView
         $this->item = $this->get('Item');
         $this->item->images = json_decode($this->item->images);
         $this->item->specifications = json_decode($this->item->specifications);
+
+        $this->setDocumentTitle($this->item->title);
+
         parent::display($template);
     }
 
