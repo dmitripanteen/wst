@@ -16,13 +16,20 @@ class ItemsModel extends ListModel
         $db    = $this->getDbo();
         $query = $db->getQuery(true);
         $conditionPublished = ContentComponent::CONDITION_PUBLISHED;
-
+        $isFeaturedOnly = $this->getState('filter.featured') ?? false;
         $query->select('*')
             ->from($db->quoteName('#__catalogue_item', 'c'))
-            ->where($db->quoteName('c.state') . ' = :conditionPublished')
-            ->order($db->quoteName('c.ordering') . ' ASC')
+            ->where($db->quoteName('c.state') . ' = :conditionPublished');
+        if($isFeaturedOnly){
+            $query->where($db->quoteName('c.featured') . ' = 1');
+        }
+        $query->order($db->quoteName('c.ordering') . ' ASC')
             ->bind(':conditionPublished', $conditionPublished,
                    ParameterType::INTEGER);
+        $limit = (int) $this->getState('list.limit', 0);
+        if($limit){
+            $query->setLimit($limit);
+        }
         return $query;
     }
 

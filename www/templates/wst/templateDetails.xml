@@ -16,6 +16,7 @@
     <positions>
         <position>navbar</position>
         <position>slider</position>
+        <position>featured</position>
         <position>footer</position>
     </positions>
     <language>

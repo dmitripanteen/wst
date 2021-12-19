@@ -49,6 +49,7 @@ $user = JFactory::getUser();
 		$currPageParent = count($currPage->tree) > 1 ? $menu->getItem($currPage->tree[0]) : null;
 		$currPageSiblings = count($currPage->tree) > 1 ? $menu->getItems('parent_id', $currPageParent->id) : null;
 		?>
+        <jdoc:include type="modules" name="featured" />
         <jdoc:include type="component" />
 	</div>
 	<footer>

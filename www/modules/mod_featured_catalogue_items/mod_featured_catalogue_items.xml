@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+	<name>mod_featured_catalogue_items</name>
+	<author>Dmitri Pantelei</author>
+	<creationDate>December 2021</creationDate>
+	<version>1.0.0</version>
+	<description>MOD_FEATURED_CATALOGUE_ITEMS_XML_DESCRIPTION</description>
+	<namespace path="src">Wst\Module\FeaturedCatalogueItems</namespace>
+	<files>
+		<filename module="mod_featured_catalogue_items">mod_featured_catalogue_items.php</filename>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/mod_featured_catalogue_items.ini</language>
+		<language tag="en-GB">language/en-GB/mod_featured_catalogue_items.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/mod_featured_catalogue_items.ini</language>
+		<language tag="ru-RU">language/ru-RU/mod_featured_catalogue_items.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="items_count"
+					type="number"
+					label="COM_CATALOGUE_NUMBER_OF_ITEMS_TO_DISPLAY_LABEL"
+					default="3"
+					filter="integer"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
