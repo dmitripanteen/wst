@@ -8,7 +8,7 @@ use Joomla\CMS\Uri\Uri;
 use Joomla\Component\Banners\Site\Helper\BannerHelper;
 
 ?>
-<div class="catalogue-body">
+<div class="catalogue-body homepage">
     <div class="items featured">
         <?php foreach ($items as $item): ?>
             <?php foreach (json_decode($item->images) as $image) {

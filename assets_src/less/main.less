@@ -9,9 +9,10 @@
 @import "@{fa_path}/core.less";
 @import "@{fa_path}/icons.less";
 
-*{
+* {
   font-family: 'Montserrat';
 }
+
 html {
   width: 100%;
   height: 100%;
@@ -23,7 +24,10 @@ body {
   height: 100%;
   margin: 0;
   .page-main-content {
-    padding-bottom: 253px;
+    //padding-bottom: 253px;
+    &.homepage {
+      background-color: #FFF;
+    }
   }
 }
 
@@ -90,10 +94,29 @@ header {
   }
 }
 
+.pre-footer {
+  //margin-top: -253px;
+  height: 157px;
+  background: #F8F9FA;
+  .container {
+    min-width: 840px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    .brand-text {
+      flex-grow: 1;
+      font-size: 22px;
+      text-align: center;
+      font-family: "Montserrat SemiBold";
+    }
+  }
+}
+
 footer {
   width: 100%;
   height: 200px;
-  margin-top: -253px;
+  //margin-top: -253px;
   background-color: #373839;
   overflow: hidden;
   padding-top: 53px;

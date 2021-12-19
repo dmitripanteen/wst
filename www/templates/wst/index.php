@@ -23,7 +23,7 @@ $this->setMetadata('copyright', htmlspecialchars($app->get('sitename')));
 $this->addFavicon($template.'/images/wst-logo.svg');
 $this->addScript($template.'/assets/js/main.js?v=1');
 
-$HOMEPAGE = ($currPage == $menu->getDefault($lang->getTag()));
+$homepage = ($currPage == $menu->getDefault($lang->getTag()));
 $user = JFactory::getUser();
 ?>
 <!DOCTYPE html>
@@ -31,8 +31,9 @@ $user = JFactory::getUser();
 <head>
 	<jdoc:include type="head" />
 </head>
-<body class="<?php if(! $HOMEPAGE):?>content-page<?php endif;?> page-option-<?=$app->input->get('option');?> page-view-<?=$app->input->get('view');?>">
-	<div class="page-main-content">
+<body class="<?php if(! $homepage):?>content-page<?php endif;?> page-option-<?=$app->input->get('option');?> page-view-<?=$app->input->get('view');?>">
+	<div class="page-main-content <?php if ($homepage):?> homepage<?php endif;
+	?>">
         <jdoc:include type="message" />
         <header>
             <div id="mainmenu">
@@ -52,6 +53,7 @@ $user = JFactory::getUser();
         <jdoc:include type="modules" name="featured" />
         <jdoc:include type="component" />
 	</div>
+    <jdoc:include type="modules" name="pre-footer"/>
 	<footer>
 		<div class="container">
             <jdoc:include type="modules" name="footer"/>
