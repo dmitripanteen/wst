@@ -27,7 +27,7 @@ $bgImage = $this->params->get('bg_image');
                     0,
                     strpos($image->url, '#')
                 );?>
-            <a href="<?php echo Route::_('index.php?option=com_catalogue&view=item&Itemid=102&id='.$item->id);?>"
+            <a href="<?php echo Route::_('index.php?option=com_catalogue&view=item&id='.$item->id);?>"
             class="catalogue-item">
                 <div class="item-image">
                     <img src="<?php echo $mainImage; ?>">

@@ -2,10 +2,7 @@
 
 defined('_JEXEC') or die;
 
-use Joomla\CMS\Language\Text;
 use Joomla\CMS\Router\Route;
-use Joomla\CMS\Uri\Uri;
-use Joomla\Component\Banners\Site\Helper\BannerHelper;
 
 ?>
 <div class="catalogue-body homepage">
@@ -24,7 +21,7 @@ use Joomla\Component\Banners\Site\Helper\BannerHelper;
                     0,
                     strpos($image->url, '#')
                 );?>
-            <a href="<?php echo Route::_('index.php?option=com_catalogue&view=item&Itemid=102&id='.$item->id);?>"
+            <a href="<?php echo Route::_('index.php?option=com_catalogue&view=item&id='.$item->id);?>"
                class="catalogue-item">
                 <div class="item-title">
                     <?php echo $item->featured_description; ?>
