@@ -199,7 +199,17 @@ INSERT INTO `dnii8_action_logs` (`id`, `message_language_key`, `message`, `log_d
 (174,	'PLG_ACTIONLOG_JOOMLA_USER_CHECKIN',	'{\"action\":\"checkin\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_USER\",\"id\":49,\"title\":\"Wstadmin\",\"itemlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"table\":\"#__modules\"}',	'2021-12-19 14:32:32',	'com_checkin',	49,	49,	'COM_ACTIONLOGS_DISABLED'),
 (175,	'PLG_ACTIONLOG_JOOMLA_USER_CHECKIN',	'{\"action\":\"checkin\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_USER\",\"id\":49,\"title\":\"Wstadmin\",\"itemlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"table\":\"#__modules\"}',	'2021-12-19 15:41:34',	'com_checkin',	49,	49,	'COM_ACTIONLOGS_DISABLED'),
 (176,	'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_OUT',	'{\"action\":\"logout\",\"id\":49,\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}',	'2021-12-19 15:41:40',	'com_users',	49,	49,	'COM_ACTIONLOGS_DISABLED'),
-(177,	'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN',	'{\"action\":\"login\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}',	'2021-12-19 15:41:44',	'com_users',	49,	0,	'COM_ACTIONLOGS_DISABLED');
+(177,	'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN',	'{\"action\":\"login\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}',	'2021-12-19 15:41:44',	'com_users',	49,	0,	'COM_ACTIONLOGS_DISABLED'),
+(178,	'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN',	'{\"action\":\"login\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}',	'2021-12-19 16:31:24',	'com_users',	49,	0,	'COM_ACTIONLOGS_DISABLED'),
+(179,	'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_OUT',	'{\"action\":\"logout\",\"id\":49,\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}',	'2021-12-19 16:31:29',	'com_users',	49,	49,	'COM_ACTIONLOGS_DISABLED'),
+(180,	'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN',	'{\"action\":\"login\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}',	'2021-12-22 20:41:11',	'com_users',	49,	0,	'COM_ACTIONLOGS_DISABLED'),
+(181,	'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN',	'{\"action\":\"login\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}',	'2021-12-24 13:48:19',	'com_users',	49,	0,	'COM_ACTIONLOGS_DISABLED'),
+(182,	'PLG_ACTIONLOG_JOOMLA_EXTENSION_INSTALLED',	'{\"action\":\"install\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_COMPONENT\",\"id\":229,\"name\":\"com_aimysitemap\",\"extension_name\":\"com_aimysitemap\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\"}',	'2021-12-24 13:51:01',	'com_installer',	49,	229,	'COM_ACTIONLOGS_DISABLED'),
+(183,	'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN',	'{\"action\":\"login\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}',	'2021-12-24 14:13:42',	'com_users',	49,	0,	'COM_ACTIONLOGS_DISABLED'),
+(184,	'PLG_ACTIONLOG_JOOMLA_COMPONENT_CONFIG_UPDATED',	'{\"action\":\"update\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_COMPONENT_CONFIG\",\"id\":229,\"title\":\"com_aimysitemap\",\"extension_name\":\"com_aimysitemap\",\"itemlink\":\"index.php?option=com_config&task=component.edit&extension_id=229\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\"}',	'2021-12-24 14:14:25',	'com_config.component',	49,	229,	'COM_ACTIONLOGS_DISABLED'),
+(185,	'PLG_SYSTEM_ACTIONLOGS_CONTENT_UPDATED',	'{\"action\":\"update\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_MODULE\",\"id\":110,\"title\":\"\\u0424\\u0443\\u0442\\u0435\\u0440\",\"extension_name\":\"\\u0424\\u0443\\u0442\\u0435\\u0440\",\"itemlink\":\"index.php?option=com_modules&task=module.edit&id=110\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\"}',	'2021-12-24 14:28:16',	'com_modules.module',	49,	110,	'COM_ACTIONLOGS_DISABLED'),
+(186,	'PLG_ACTIONLOG_JOOMLA_USER_CHECKIN',	'{\"action\":\"checkin\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_USER\",\"id\":49,\"title\":\"Wstadmin\",\"itemlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"table\":\"#__modules\"}',	'2021-12-24 14:28:16',	'com_checkin',	49,	49,	'COM_ACTIONLOGS_DISABLED'),
+(187,	'PLG_ACTIONLOG_JOOMLA_USER_CHECKIN',	'{\"action\":\"checkin\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_USER\",\"id\":49,\"title\":\"Wstadmin\",\"itemlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"userid\":49,\"username\":\"Wstadmin\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=49\",\"table\":\"#__modules\"}',	'2021-12-24 14:28:20',	'com_checkin',	49,	49,	'COM_ACTIONLOGS_DISABLED');
 
 DROP TABLE IF EXISTS `dnii8_action_logs_extensions`;
 CREATE TABLE `dnii8_action_logs_extensions` (
@@ -271,6 +281,71 @@ INSERT INTO `dnii8_action_log_config` (`id`, `type_title`, `type_alias`, `id_hol
 (18,	'banner_client',	'com_banners.client',	'id',	'name',	'#__banner_clients',	'PLG_ACTIONLOG_JOOMLA'),
 (19,	'application_config',	'com_config.application',	'',	'name',	'',	'PLG_ACTIONLOG_JOOMLA');
 
+DROP TABLE IF EXISTS `dnii8_aimysitemap`;
+CREATE TABLE `dnii8_aimysitemap` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `url` varbinary(767) NOT NULL,
+  `title` varchar(255) NOT NULL DEFAULT '',
+  `priority` float NOT NULL DEFAULT 0.5,
+  `mtime` bigint(20) NOT NULL DEFAULT 0,
+  `lang` char(5) NOT NULL DEFAULT '*',
+  `state` tinyint(1) NOT NULL DEFAULT 0,
+  `lock` tinyint(1) NOT NULL DEFAULT 0,
+  `changefreq` char(7) NOT NULL DEFAULT 'monthly',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `url` (`url`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `dnii8_aimysitemap` (`id`, `url`, `title`, `priority`, `mtime`, `lang`, `state`, `lock`, `changefreq`) VALUES
+(1,	UNHEX('2F'),	'Главная',	1,	1640356123,	'*',	1,	0,	'monthly'),
+(3,	UNHEX('2F61626F75742D777374'),	'О WST',	0.9,	1640356124,	'*',	1,	0,	'monthly'),
+(4,	UNHEX('2F636174616C6F677565'),	'Каталог',	0.9,	1640356125,	'*',	1,	0,	'monthly'),
+(5,	UNHEX('2F636174616C6F6775652F6974656D2F6164703031'),	'ADP01',	0.8,	1640356125,	'*',	1,	0,	'monthly'),
+(6,	UNHEX('2F636174616C6F6775652F6974656D2F70732D6573353030'),	'PS-ES500',	0.8,	1640356126,	'*',	1,	0,	'monthly'),
+(7,	UNHEX('2F636174616C6F6775652F6974656D2F77703933312D62322D656C656B74726F7374616E7473697961'),	'WP931(B2) электростанция',	0.8,	1640356126,	'*',	1,	0,	'monthly'),
+(8,	UNHEX('2F636174616C6F6775652F6974656D2F77703933312D62332D656C656B74726F7374616E7473697961'),	'WP931(B3) электростанция',	0.8,	1640356127,	'*',	1,	0,	'monthly'),
+(9,	UNHEX('2F636174616C6F6775652F6974656D2F77703933312D62382D656C656B74726F7374616E7473697961'),	'WP931(B8) электростанция',	0.8,	1640356128,	'*',	1,	0,	'monthly'),
+(10,	UNHEX('2F636F6E7461637473'),	'Контакты',	0.9,	1640356128,	'*',	1,	0,	'monthly'),
+(11,	UNHEX('2F746563686E6F6C6F67696573'),	'Технологии',	0.9,	1640356129,	'*',	1,	0,	'monthly');
+
+DROP TABLE IF EXISTS `dnii8_aimysitemap_broken_links`;
+CREATE TABLE `dnii8_aimysitemap_broken_links` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `url` varbinary(767) NOT NULL,
+  `srcs` mediumtext NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `url` (`url`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+DROP TABLE IF EXISTS `dnii8_aimysitemap_crawl`;
+CREATE TABLE `dnii8_aimysitemap_crawl` (
+  `url` varbinary(767) NOT NULL,
+  `code` smallint(6) NOT NULL DEFAULT 0,
+  `crawled` tinyint(1) NOT NULL DEFAULT 0,
+  `index` tinyint(1) NOT NULL DEFAULT 0,
+  `title` varchar(255) NOT NULL DEFAULT '',
+  `mtime` bigint(20) NOT NULL DEFAULT 0,
+  `lang` char(5) NOT NULL DEFAULT '*',
+  `refs` mediumtext NOT NULL,
+  PRIMARY KEY (`url`),
+  UNIQUE KEY `url` (`url`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+DROP TABLE IF EXISTS `dnii8_aimysitemap_kvstore`;
+CREATE TABLE `dnii8_aimysitemap_kvstore` (
+  `k` varchar(64) NOT NULL COMMENT 'key',
+  `v` longtext NOT NULL COMMENT 'value',
+  PRIMARY KEY (`k`),
+  UNIQUE KEY `k` (`k`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `dnii8_aimysitemap_kvstore` (`k`, `v`) VALUES
+('crawl-protocol',	's:4:\"http\";'),
+('is-https-only',	'b:0;'),
+('written-sitemaps',	'a:1:{i:0;s:11:\"sitemap.xml\";}');
+
 DROP TABLE IF EXISTS `dnii8_assets`;
 CREATE TABLE `dnii8_assets` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Primary Key',
@@ -288,7 +363,7 @@ CREATE TABLE `dnii8_assets` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO `dnii8_assets` (`id`, `parent_id`, `lft`, `rgt`, `level`, `name`, `title`, `rules`) VALUES
-(1,	0,	0,	179,	0,	'root.1',	'Root Asset',	'{\"core.login.site\":{\"6\":1,\"2\":1},\"core.login.admin\":{\"6\":1},\"core.login.api\":{\"8\":1},\"core.login.offline\":{\"6\":1},\"core.admin\":{\"8\":1},\"core.manage\":{\"7\":1},\"core.create\":{\"6\":1,\"3\":1},\"core.delete\":{\"6\":1},\"core.edit\":{\"6\":1,\"4\":1},\"core.edit.state\":{\"6\":1,\"5\":1},\"core.edit.own\":{\"6\":1,\"3\":1}}'),
+(1,	0,	0,	181,	0,	'root.1',	'Root Asset',	'{\"core.login.site\":{\"6\":1,\"2\":1},\"core.login.admin\":{\"6\":1},\"core.login.api\":{\"8\":1},\"core.login.offline\":{\"6\":1},\"core.admin\":{\"8\":1},\"core.manage\":{\"7\":1},\"core.create\":{\"6\":1,\"3\":1},\"core.delete\":{\"6\":1},\"core.edit\":{\"6\":1,\"4\":1},\"core.edit.state\":{\"6\":1,\"5\":1},\"core.edit.own\":{\"6\":1,\"3\":1}}'),
 (2,	1,	1,	2,	1,	'com_admin',	'com_admin',	'{}'),
 (3,	1,	3,	6,	1,	'com_banners',	'com_banners',	'{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
 (4,	1,	7,	8,	1,	'com_cache',	'com_cache',	'{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
@@ -377,7 +452,8 @@ INSERT INTO `dnii8_assets` (`id`, `parent_id`, `lft`, `rgt`, `level`, `name`, `t
 (94,	27,	23,	24,	3,	'com_content.article.3',	'Контакты',	'{}'),
 (96,	1,	177,	178,	1,	'com_catalogue',	'com_catalogue',	'{}'),
 (97,	18,	140,	141,	2,	'com_modules.module.111',	'Избранные товары каталога',	'{}'),
-(98,	18,	142,	143,	2,	'com_modules.module.112',	'Бренд перед футером',	'{}');
+(98,	18,	142,	143,	2,	'com_modules.module.112',	'Бренд перед футером',	'{}'),
+(99,	1,	179,	180,	1,	'com_aimysitemap',	'com_aimysitemap',	'{}');
 
 DROP TABLE IF EXISTS `dnii8_associations`;
 CREATE TABLE `dnii8_associations` (
@@ -434,7 +510,7 @@ CREATE TABLE `dnii8_banners` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO `dnii8_banners` (`id`, `cid`, `type`, `name`, `alias`, `imptotal`, `impmade`, `clicks`, `clickurl`, `state`, `catid`, `description`, `custombannercode`, `sticky`, `ordering`, `metakey`, `params`, `own_prefix`, `metakey_prefix`, `purchase_type`, `track_clicks`, `track_impressions`, `checked_out`, `checked_out_time`, `publish_up`, `publish_down`, `reset`, `created`, `language`, `created_by`, `created_by_alias`, `modified`, `modified_by`, `version`) VALUES
-(1,	0,	0,	'Баннер на главной',	'home-page-banner',	0,	214,	0,	'',	1,	3,	'',	'',	0,	1,	'',	'{\"imageurl\":\"images\\/banners\\/12-1.jpg\",\"width\":\"\",\"height\":\"\",\"alt\":\"\"}',	0,	'',	-1,	0,	0,	NULL,	NULL,	NULL,	NULL,	'2021-12-27 00:00:00',	'2021-11-27 13:37:19',	'*',	49,	'',	'2021-11-27 13:37:19',	49,	1);
+(1,	0,	0,	'Баннер на главной',	'home-page-banner',	0,	292,	0,	'',	1,	3,	'',	'',	0,	1,	'',	'{\"imageurl\":\"images\\/banners\\/12-1.jpg\",\"width\":\"\",\"height\":\"\",\"alt\":\"\"}',	0,	'',	-1,	0,	0,	NULL,	NULL,	NULL,	NULL,	'2021-12-27 00:00:00',	'2021-11-27 13:37:19',	'*',	49,	'',	'2021-11-27 13:37:19',	49,	1);
 
 DROP TABLE IF EXISTS `dnii8_banner_clients`;
 CREATE TABLE `dnii8_banner_clients` (
@@ -645,9 +721,9 @@ CREATE TABLE `dnii8_content` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO `dnii8_content` (`id`, `asset_id`, `title`, `alias`, `introtext`, `fulltext`, `state`, `catid`, `created`, `created_by`, `created_by_alias`, `modified`, `modified_by`, `checked_out`, `checked_out_time`, `publish_up`, `publish_down`, `images`, `urls`, `attribs`, `version`, `ordering`, `metakey`, `metadesc`, `access`, `hits`, `metadata`, `featured`, `language`, `note`) VALUES
-(1,	92,	'О WST',	'about-wst',	'<h1>РОЖДЕННЫЙ ПОСЛЕ 17 ЛЕТ ПРОИЗВОДСТВА АККУМУЛЯТОРОВ И АКСЕССУАРОВ ДЛЯ СМАРТФОНОВ</h1>\r\n<p>Из того, что было «Generic», теперь мы предлагаем вам «WST».</p>\r\n<p>Основанная в 2003 году, компания WST заработала себе репутацию закулисного дизайнера и производителя многих самых популярных на рынке аккумуляторных батарей под маркой OEM.</p>\r\n<p>Мы стремимся создать индивидуальный пользовательский интерфейс и считаем, что каждый из наших продуктов должен соответствовать своему владельцу. То, что мы делаем — это не просто результат фокус-групповых тестов, а, скорее, результаты наблюдения и признания того, как люди предпочитают взаимодействовать с технологиями.</p>\r\n<p>Наша цель — производить продукты, ориентированные на пользователя, которые помогают улучшить пользовательский опыт, улучшить восприятие качества жизни.</p>\r\n<p>Наши клиенты определяют, каким они хотят видеть товар, и именно это определяет финальный продукт компании WST.</p>',	'',	1,	2,	'2021-11-28 16:51:54',	49,	'',	'2021-11-28 17:04:25',	49,	NULL,	NULL,	'2021-11-28 16:51:54',	NULL,	'{\"image_intro\":\"images\\/image-4.jpg#joomlaImage:\\/\\/local-images\\/image-4.jpg?width=1440&height=554\",\"image_intro_alt\":\"\",\"image_intro_alt_empty\":\"1\",\"float_intro\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"images\\/image-3.png#joomlaImage:\\/\\/local-images\\/image-3.png?width=347&height=133\",\"image_fulltext_alt\":\"\",\"image_fulltext_alt_empty\":\"1\",\"float_fulltext\":\"\",\"image_fulltext_caption\":\"\"}',	'{\"urla\":\"\",\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":\"\",\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":\"\",\"urlctext\":\"\",\"targetc\":\"\"}',	'{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}',	2,	2,	'',	'',	1,	43,	'{\"robots\":\"\",\"author\":\"\",\"rights\":\"\"}',	0,	'*',	''),
-(2,	93,	'Технологии',	'tekhnologii',	'<p>WST SmartVOLT ™ — это интеллектуальная система управления процессом зарядки.</p>\r\n<p>Начиная с этого момента, вам не нужно думать о том, какие пауэрбанки являются самыми мощными, обеспечивающими быструю зарядку и стабильную выходную мощность.</p>\r\n<p>Интеллектуальная технология обнаружения устройств WST SmartVOLT ™ идентифицирует протоколы зарядки вашего смартфона, чтобы обеспечить соответствующую зарядку для вашего устройства. В будущем SmartVOLT ™ будет встроен во всю линейку продуктов WST, чтобы обеспечить всем вам незабываемые впечатления от зарядки и развлечения.</p>',	'',	1,	2,	'2021-11-29 15:06:41',	49,	'',	'2021-11-29 15:06:41',	49,	NULL,	NULL,	'2021-11-29 15:06:41',	NULL,	'{\"image_intro\":\"images\\/technology-image.jpg#joomlaImage:\\/\\/local-images\\/technology-image.jpg?width=1440&height=553\",\"image_intro_alt\":\"\",\"image_intro_alt_empty\":\"1\",\"float_intro\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"images\\/image-9.png#joomlaImage:\\/\\/local-images\\/image-9.png?width=444&height=85\",\"image_fulltext_alt\":\"\",\"image_fulltext_alt_empty\":\"1\",\"float_fulltext\":\"\",\"image_fulltext_caption\":\"\"}',	'{\"urla\":\"\",\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":\"\",\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":\"\",\"urlctext\":\"\",\"targetc\":\"\"}',	'{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}',	1,	1,	'',	'',	1,	6,	'{\"robots\":\"\",\"author\":\"\",\"rights\":\"\"}',	0,	'*',	''),
-(3,	94,	'Контакты',	'kontakty',	'',	'',	1,	2,	'2021-11-29 15:21:12',	49,	'',	'2021-11-29 15:22:41',	49,	49,	'2021-11-29 15:22:41',	'2021-11-29 15:21:12',	NULL,	'{\"image_intro\":\"images\\/contacts-image.png#joomlaImage:\\/\\/local-images\\/contacts-image.png?width=1440&height=553\",\"image_intro_alt\":\"\",\"image_intro_alt_empty\":\"1\",\"float_intro\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"float_fulltext\":\"\",\"image_fulltext_caption\":\"\"}',	'{\"urla\":\"\",\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":\"\",\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":\"\",\"urlctext\":\"\",\"targetc\":\"\"}',	'{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}',	2,	0,	'',	'',	1,	32,	'{\"robots\":\"\",\"author\":\"\",\"rights\":\"\"}',	0,	'*',	'');
+(1,	92,	'О WST',	'about-wst',	'<h1>РОЖДЕННЫЙ ПОСЛЕ 17 ЛЕТ ПРОИЗВОДСТВА АККУМУЛЯТОРОВ И АКСЕССУАРОВ ДЛЯ СМАРТФОНОВ</h1>\r\n<p>Из того, что было «Generic», теперь мы предлагаем вам «WST».</p>\r\n<p>Основанная в 2003 году, компания WST заработала себе репутацию закулисного дизайнера и производителя многих самых популярных на рынке аккумуляторных батарей под маркой OEM.</p>\r\n<p>Мы стремимся создать индивидуальный пользовательский интерфейс и считаем, что каждый из наших продуктов должен соответствовать своему владельцу. То, что мы делаем — это не просто результат фокус-групповых тестов, а, скорее, результаты наблюдения и признания того, как люди предпочитают взаимодействовать с технологиями.</p>\r\n<p>Наша цель — производить продукты, ориентированные на пользователя, которые помогают улучшить пользовательский опыт, улучшить восприятие качества жизни.</p>\r\n<p>Наши клиенты определяют, каким они хотят видеть товар, и именно это определяет финальный продукт компании WST.</p>',	'',	1,	2,	'2021-11-28 16:51:54',	49,	'',	'2021-11-28 17:04:25',	49,	NULL,	NULL,	'2021-11-28 16:51:54',	NULL,	'{\"image_intro\":\"images\\/image-4.jpg#joomlaImage:\\/\\/local-images\\/image-4.jpg?width=1440&height=554\",\"image_intro_alt\":\"\",\"image_intro_alt_empty\":\"1\",\"float_intro\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"images\\/image-3.png#joomlaImage:\\/\\/local-images\\/image-3.png?width=347&height=133\",\"image_fulltext_alt\":\"\",\"image_fulltext_alt_empty\":\"1\",\"float_fulltext\":\"\",\"image_fulltext_caption\":\"\"}',	'{\"urla\":\"\",\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":\"\",\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":\"\",\"urlctext\":\"\",\"targetc\":\"\"}',	'{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}',	2,	2,	'',	'',	1,	58,	'{\"robots\":\"\",\"author\":\"\",\"rights\":\"\"}',	0,	'*',	''),
+(2,	93,	'Технологии',	'tekhnologii',	'<p>WST SmartVOLT ™ — это интеллектуальная система управления процессом зарядки.</p>\r\n<p>Начиная с этого момента, вам не нужно думать о том, какие пауэрбанки являются самыми мощными, обеспечивающими быструю зарядку и стабильную выходную мощность.</p>\r\n<p>Интеллектуальная технология обнаружения устройств WST SmartVOLT ™ идентифицирует протоколы зарядки вашего смартфона, чтобы обеспечить соответствующую зарядку для вашего устройства. В будущем SmartVOLT ™ будет встроен во всю линейку продуктов WST, чтобы обеспечить всем вам незабываемые впечатления от зарядки и развлечения.</p>',	'',	1,	2,	'2021-11-29 15:06:41',	49,	'',	'2021-11-29 15:06:41',	49,	NULL,	NULL,	'2021-11-29 15:06:41',	NULL,	'{\"image_intro\":\"images\\/technology-image.jpg#joomlaImage:\\/\\/local-images\\/technology-image.jpg?width=1440&height=553\",\"image_intro_alt\":\"\",\"image_intro_alt_empty\":\"1\",\"float_intro\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"images\\/image-9.png#joomlaImage:\\/\\/local-images\\/image-9.png?width=444&height=85\",\"image_fulltext_alt\":\"\",\"image_fulltext_alt_empty\":\"1\",\"float_fulltext\":\"\",\"image_fulltext_caption\":\"\"}',	'{\"urla\":\"\",\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":\"\",\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":\"\",\"urlctext\":\"\",\"targetc\":\"\"}',	'{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}',	1,	1,	'',	'',	1,	20,	'{\"robots\":\"\",\"author\":\"\",\"rights\":\"\"}',	0,	'*',	''),
+(3,	94,	'Контакты',	'kontakty',	'',	'',	1,	2,	'2021-11-29 15:21:12',	49,	'',	'2021-11-29 15:22:41',	49,	49,	'2021-11-29 15:22:41',	'2021-11-29 15:21:12',	NULL,	'{\"image_intro\":\"images\\/contacts-image.png#joomlaImage:\\/\\/local-images\\/contacts-image.png?width=1440&height=553\",\"image_intro_alt\":\"\",\"image_intro_alt_empty\":\"1\",\"float_intro\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"float_fulltext\":\"\",\"image_fulltext_caption\":\"\"}',	'{\"urla\":\"\",\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":\"\",\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":\"\",\"urlctext\":\"\",\"targetc\":\"\"}',	'{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}',	2,	0,	'',	'',	1,	39,	'{\"robots\":\"\",\"author\":\"\",\"rights\":\"\"}',	0,	'*',	'');
 
 DROP TABLE IF EXISTS `dnii8_contentitem_tag_map`;
 CREATE TABLE `dnii8_contentitem_tag_map` (
@@ -776,7 +852,7 @@ INSERT INTO `dnii8_extensions` (`extension_id`, `package_id`, `name`, `type`, `e
 (32,	0,	'com_actionlogs',	'component',	'com_actionlogs',	NULL,	'',	1,	1,	1,	0,	1,	'{\"name\":\"com_actionlogs\",\"type\":\"component\",\"creationDate\":\"May 2018\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2018 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.9.0\",\"description\":\"COM_ACTIONLOGS_XML_DESCRIPTION\",\"group\":\"\"}',	'{\"ip_logging\":0,\"csv_delimiter\":\",\",\"loggable_extensions\":[\"com_banners\",\"com_cache\",\"com_categories\",\"com_checkin\",\"com_config\",\"com_contact\",\"com_content\",\"com_installer\",\"com_media\",\"com_menus\",\"com_messages\",\"com_modules\",\"com_newsfeeds\",\"com_plugins\",\"com_redirect\",\"com_tags\",\"com_templates\",\"com_users\"]}',	'',	NULL,	NULL,	0,	0,	NULL),
 (33,	0,	'com_workflow',	'component',	'com_workflow',	NULL,	'',	1,	1,	0,	1,	1,	'{\"name\":\"com_workflow\",\"type\":\"component\",\"creationDate\":\"June 2017\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2018 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"4.0.0\",\"description\":\"COM_WORKFLOW_XML_DESCRIPTION\",\"group\":\"\"}',	'{}',	'',	NULL,	NULL,	0,	0,	NULL),
 (34,	0,	'com_mails',	'component',	'com_mails',	NULL,	'',	1,	1,	1,	1,	1,	'{\"name\":\"com_mails\",\"type\":\"component\",\"creationDate\":\"January 2019\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2019 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"4.0.0\",\"description\":\"COM_MAILS_XML_DESCRIPTION\",\"group\":\"\"}',	'',	'',	NULL,	NULL,	0,	0,	NULL),
-(35,	0,	'lib_joomla',	'library',	'joomla',	NULL,	'',	0,	1,	1,	1,	1,	'{\"name\":\"lib_joomla\",\"type\":\"library\",\"creationDate\":\"2008\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2008 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"https:\\/\\/www.joomla.org\",\"version\":\"13.1\",\"description\":\"LIB_JOOMLA_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"joomla\"}',	'{\"mediaversion\":\"45311dd7921aa28b1e55151d7bf3f349\"}',	'',	NULL,	NULL,	0,	0,	NULL),
+(35,	0,	'lib_joomla',	'library',	'joomla',	NULL,	'',	0,	1,	1,	1,	1,	'{\"name\":\"lib_joomla\",\"type\":\"library\",\"creationDate\":\"2008\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2008 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"https:\\/\\/www.joomla.org\",\"version\":\"13.1\",\"description\":\"LIB_JOOMLA_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"joomla\"}',	'{\"mediaversion\":\"8ee23a9f917627dc0588f465f521ab7d\"}',	'',	NULL,	NULL,	0,	0,	NULL),
 (36,	0,	'lib_phpass',	'library',	'phpass',	NULL,	'',	0,	1,	1,	1,	1,	'{\"name\":\"lib_phpass\",\"type\":\"library\",\"creationDate\":\"2004-2006\",\"author\":\"Solar Designer\",\"copyright\":\"\",\"authorEmail\":\"solar@openwall.com\",\"authorUrl\":\"https:\\/\\/www.openwall.com\\/phpass\\/\",\"version\":\"0.3\",\"description\":\"LIB_PHPASS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"phpass\"}',	'',	'',	NULL,	NULL,	0,	0,	NULL),
 (37,	0,	'mod_articles_archive',	'module',	'mod_articles_archive',	NULL,	'',	0,	1,	1,	0,	1,	'{\"name\":\"mod_articles_archive\",\"type\":\"module\",\"creationDate\":\"July 2006\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2006 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"MOD_ARTICLES_ARCHIVE_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"mod_articles_archive\"}',	'',	'',	NULL,	NULL,	0,	0,	NULL),
 (38,	0,	'mod_articles_latest',	'module',	'mod_articles_latest',	NULL,	'',	0,	1,	1,	0,	1,	'{\"name\":\"mod_articles_latest\",\"type\":\"module\",\"creationDate\":\"July 2004\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2005 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"MOD_LATEST_NEWS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"mod_articles_latest\"}',	'',	'',	NULL,	NULL,	0,	0,	NULL),
@@ -922,7 +998,7 @@ INSERT INTO `dnii8_extensions` (`extension_id`, `package_id`, `name`, `type`, `e
 (178,	0,	'plg_system_sessiongc',	'plugin',	'sessiongc',	NULL,	'system',	0,	1,	1,	0,	1,	'{\"name\":\"plg_system_sessiongc\",\"type\":\"plugin\",\"creationDate\":\"February 2018\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2018 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.8.6\",\"description\":\"PLG_SYSTEM_SESSIONGC_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"sessiongc\"}',	'',	'',	NULL,	NULL,	17,	0,	NULL),
 (179,	0,	'plg_system_skipto',	'plugin',	'skipto',	NULL,	'system',	0,	1,	1,	0,	1,	'{\"name\":\"plg_system_skipto\",\"type\":\"plugin\",\"creationDate\":\"February 2020\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2019 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"4.0.0\",\"description\":\"PLG_SYSTEM_SKIPTO_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"skipto\"}',	'{}',	'',	NULL,	NULL,	18,	0,	NULL),
 (180,	0,	'plg_system_stats',	'plugin',	'stats',	NULL,	'system',	0,	0,	1,	0,	1,	'{\"name\":\"plg_system_stats\",\"type\":\"plugin\",\"creationDate\":\"November 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2013 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_STATS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"stats\"}',	'{\"mode\":3,\"lastrun\":1637782821,\"unique_id\":\"e8fa45cc11b38379b33fa046c52887f9ef89a223\",\"interval\":12}',	'',	NULL,	NULL,	19,	0,	NULL),
-(181,	0,	'plg_system_updatenotification',	'plugin',	'updatenotification',	NULL,	'system',	0,	1,	1,	0,	1,	'{\"name\":\"plg_system_updatenotification\",\"type\":\"plugin\",\"creationDate\":\"May 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2015 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_UPDATENOTIFICATION_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"updatenotification\"}',	'{\"lastrun\":1639920946}',	'',	NULL,	NULL,	20,	0,	NULL),
+(181,	0,	'plg_system_updatenotification',	'plugin',	'updatenotification',	NULL,	'system',	0,	1,	1,	0,	1,	'{\"name\":\"plg_system_updatenotification\",\"type\":\"plugin\",\"creationDate\":\"May 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2015 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_UPDATENOTIFICATION_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"updatenotification\"}',	'{\"lastrun\":1640348748}',	'',	NULL,	NULL,	20,	0,	NULL),
 (182,	0,	'plg_system_webauthn',	'plugin',	'webauthn',	NULL,	'system',	0,	1,	1,	0,	1,	'{\"name\":\"plg_system_webauthn\",\"type\":\"plugin\",\"creationDate\":\"2019-07-02\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2020 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"4.0.0\",\"description\":\"PLG_SYSTEM_WEBAUTHN_DESCRIPTION\",\"group\":\"\",\"filename\":\"webauthn\"}',	'{}',	'',	NULL,	NULL,	21,	0,	NULL),
 (183,	0,	'plg_twofactorauth_totp',	'plugin',	'totp',	NULL,	'twofactorauth',	0,	0,	1,	0,	1,	'{\"name\":\"plg_twofactorauth_totp\",\"type\":\"plugin\",\"creationDate\":\"August 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2013 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.2.0\",\"description\":\"PLG_TWOFACTORAUTH_TOTP_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"totp\"}',	'',	'',	NULL,	NULL,	1,	0,	NULL),
 (184,	0,	'plg_twofactorauth_yubikey',	'plugin',	'yubikey',	NULL,	'twofactorauth',	0,	0,	1,	0,	1,	'{\"name\":\"plg_twofactorauth_yubikey\",\"type\":\"plugin\",\"creationDate\":\"September 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2013 Open Source Matters, Inc.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.2.0\",\"description\":\"PLG_TWOFACTORAUTH_YUBIKEY_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"yubikey\"}',	'',	'',	NULL,	NULL,	2,	0,	NULL),
@@ -965,7 +1041,8 @@ INSERT INTO `dnii8_extensions` (`extension_id`, `package_id`, `name`, `type`, `e
 (223,	0,	'mod_wst_footer',	'module',	'mod_wst_footer',	NULL,	'',	0,	1,	1,	0,	0,	'{\"name\":\"mod_wst_footer\",\"type\":\"module\",\"creationDate\":\"November 2021\",\"author\":\"Dmitri Pantelei\",\"copyright\":\"\",\"authorEmail\":\"\",\"authorUrl\":\"\",\"version\":\"3.0.0\",\"description\":\"Module displays WST website footer\",\"group\":\"\",\"filename\":\"mod_wst_footer\"}',	'{}',	'',	NULL,	NULL,	0,	0,	NULL),
 (225,	0,	'com_catalogue',	'component',	'com_catalogue',	NULL,	'',	1,	1,	1,	0,	0,	'{\"name\":\"com_catalogue\",\"type\":\"component\",\"creationDate\":\"December 2021\",\"author\":\"Dmitri Pantelei\",\"copyright\":\"\",\"authorEmail\":\"\",\"authorUrl\":\"\",\"version\":\"4.0.0\",\"description\":\"COM_CATALOGUE_XML_DESCRIPTION\",\"group\":\"\"}',	'{}',	'',	NULL,	NULL,	0,	0,	NULL),
 (226,	0,	'mod_featured_catalogue_items',	'module',	'mod_featured_catalogue_items',	NULL,	'',	0,	1,	1,	0,	0,	'{\"name\":\"mod_featured_catalogue_items\",\"type\":\"module\",\"creationDate\":\"December 2021\",\"author\":\"Dmitri Pantelei\",\"copyright\":\"\",\"authorEmail\":\"\",\"authorUrl\":\"\",\"version\":\"1.0.0\",\"description\":\"MOD_FEATURED_CATALOGUE_ITEMS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"mod_featured_catalogue_items\"}',	'{\"items_count\":\"3\"}',	'',	NULL,	NULL,	0,	0,	NULL),
-(228,	0,	'mod_prefooter_brand',	'module',	'mod_prefooter_brand',	NULL,	'',	0,	1,	1,	0,	0,	'{\"name\":\"mod_prefooter_brand\",\"type\":\"module\",\"creationDate\":\"December 2021\",\"author\":\"Dmitri Pantelei\",\"copyright\":\"\",\"authorEmail\":\"\",\"authorUrl\":\"\",\"version\":\"1.0.0\",\"description\":\"MOD_PREFOOTER_BRAND_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"mod_prefooter_brand\"}',	'[]',	'',	NULL,	NULL,	0,	0,	NULL);
+(228,	0,	'mod_prefooter_brand',	'module',	'mod_prefooter_brand',	NULL,	'',	0,	1,	1,	0,	0,	'{\"name\":\"mod_prefooter_brand\",\"type\":\"module\",\"creationDate\":\"December 2021\",\"author\":\"Dmitri Pantelei\",\"copyright\":\"\",\"authorEmail\":\"\",\"authorUrl\":\"\",\"version\":\"1.0.0\",\"description\":\"MOD_PREFOOTER_BRAND_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"mod_prefooter_brand\"}',	'[]',	'',	NULL,	NULL,	0,	0,	NULL),
+(229,	0,	'com_aimysitemap',	'component',	'com_aimysitemap',	'',	'',	1,	1,	0,	0,	0,	'{\"name\":\"com_aimysitemap\",\"type\":\"component\",\"creationDate\":\"2021-08-12\",\"author\":\"Aimy Extensions (Netzum Sorglos Software GmbH)\",\"copyright\":\"2014-2021 Aimy Extensions, Netzum Sorglos Software GmbH\",\"authorEmail\":\"info@aimy-extensions.com\",\"authorUrl\":\"https:\\/\\/www.aimy-extensions.com\\/\",\"version\":\"30.0\",\"description\":\"Aimy Sitemap Generator\",\"group\":\"\",\"filename\":\"aimysitemap\"}',	'{\"xml_path\":\"sitemap.xml\",\"default_priority\":\"0.9\",\"default_changefreq\":\"monthly\",\"default_state\":\"1\",\"crawl_img\":\"0\",\"crawl_sleep\":\"0.0\",\"crawl_timeout\":\"30\",\"crawl_exclude_patterns\":\"*.gif\\r\\n*\\/sampledata\\/*\\r\\n*\\/cache\\/*\\r\\n*\\/thumbs\\/*\\r\\n*\\/component\\/*\\r\\n*\\/media\\/system\\/*\\r\\n*\\/assets\\/*\\r\\n*\\/checkout\\/*\",\"crawl_disguise\":\"0\",\"notify_google\":\"1\",\"notify_bing\":\"1\"}',	'',	NULL,	NULL,	0,	0,	NULL);
 
 DROP TABLE IF EXISTS `dnii8_fields`;
 CREATE TABLE `dnii8_fields` (
@@ -1897,7 +1974,7 @@ CREATE TABLE `dnii8_menu` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO `dnii8_menu` (`id`, `menutype`, `title`, `alias`, `note`, `path`, `link`, `type`, `published`, `parent_id`, `level`, `component_id`, `checked_out`, `checked_out_time`, `browserNav`, `access`, `img`, `template_style_id`, `params`, `lft`, `rgt`, `home`, `language`, `client_id`, `publish_up`, `publish_down`) VALUES
-(1,	'',	'Menu_Item_Root',	'root',	'',	'',	'',	'',	1,	0,	0,	0,	NULL,	NULL,	0,	0,	'',	0,	'',	0,	53,	0,	'*',	0,	NULL,	NULL),
+(1,	'',	'Menu_Item_Root',	'root',	'',	'',	'',	'',	1,	0,	0,	0,	NULL,	NULL,	0,	0,	'',	0,	'',	0,	67,	0,	'*',	0,	NULL,	NULL),
 (2,	'main',	'com_banners',	'Banners',	'',	'Banners',	'index.php?option=com_banners',	'component',	1,	1,	1,	3,	NULL,	NULL,	0,	0,	'class:bookmark',	0,	'',	1,	10,	0,	'*',	1,	NULL,	NULL),
 (3,	'main',	'com_banners',	'Banners',	'',	'Banners/Banners',	'index.php?option=com_banners&view=banners',	'component',	1,	2,	2,	3,	NULL,	NULL,	0,	0,	'class:banners',	0,	'',	2,	3,	0,	'*',	1,	NULL,	NULL),
 (4,	'main',	'com_banners_categories',	'Categories',	'',	'Banners/Categories',	'index.php?option=com_categories&view=categories&extension=com_banners',	'component',	1,	2,	2,	5,	NULL,	NULL,	0,	0,	'class:banners-cat',	0,	'',	4,	5,	0,	'*',	1,	NULL,	NULL),
@@ -1923,7 +2000,14 @@ INSERT INTO `dnii8_menu` (`id`, `menutype`, `title`, `alias`, `note`, `path`, `l
 (103,	'mainmenu',	'О WST',	'about-wst',	'',	'about-wst',	'index.php?option=com_content&view=article&id=1',	'component',	1,	1,	1,	19,	NULL,	NULL,	0,	1,	' ',	0,	'{\"show_title\":\"\",\"link_titles\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_hits\":\"\",\"show_tags\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"full-width\",\"menu-meta_description\":\"\",\"robots\":\"\"}',	45,	46,	0,	'*',	0,	NULL,	NULL),
 (104,	'mainmenu',	'Технологии',	'technologies',	'',	'technologies',	'index.php?option=com_content&view=article&id=2',	'component',	1,	1,	1,	19,	NULL,	NULL,	0,	1,	' ',	0,	'{\"show_title\":\"\",\"link_titles\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_hits\":\"\",\"show_tags\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"full-width\",\"menu-meta_description\":\"\",\"robots\":\"\"}',	47,	48,	0,	'*',	0,	NULL,	NULL),
 (105,	'mainmenu',	'Контакты',	'contacts',	'',	'contacts',	'index.php?option=com_content&view=article&layout=wst:contact&id=3',	'component',	1,	1,	1,	19,	NULL,	NULL,	0,	1,	' ',	0,	'{\"phone\":\"\\u0422\\u0435\\u043b. 88002222939\",\"email\":\"info@wst-russia.ru \",\"address\":\"\\u0433. \\u041c\\u043e\\u0441\\u043a\\u0432\\u0430, \\u041b\\u043e\\u043a\\u043e\\u043c\\u043e\\u0442\\u0438\\u0432\\u043d\\u044b\\u0439 \\u043f\\u0440\\u043e\\u0435\\u0437\\u0434,  \\u0434. 19 \\u043e\\u0444\\u0438\\u0441 204\",\"map\":\"<iframe src=\\\"https:\\/\\/yandex.ru\\/map-widget\\/v1\\/?um=constructor%3A3c8d925aabaf6059c4e3aebfc8741a13b4814084159b572f17fb7f3ce7ca9f62&amp;source=constructor\\\" width=\\\"100%\\\" height=\\\"492\\\" frameborder=\\\"0\\\"><\\/iframe>\",\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"contacts\",\"menu-meta_description\":\"\",\"robots\":\"\"}',	49,	50,	0,	'*',	0,	NULL,	NULL),
-(106,	'main',	'COM_CATALOGUE_MENU',	'com-catalogue-menu',	'',	'com-catalogue-menu',	'index.php?option=com_catalogue',	'component',	1,	1,	1,	225,	NULL,	NULL,	0,	1,	'class:component',	0,	'{}',	51,	52,	0,	'',	1,	NULL,	NULL);
+(106,	'main',	'COM_CATALOGUE_MENU',	'com-catalogue-menu',	'',	'com-catalogue-menu',	'index.php?option=com_catalogue',	'component',	1,	1,	1,	225,	NULL,	NULL,	0,	1,	'class:component',	0,	'{}',	51,	52,	0,	'',	1,	NULL,	NULL),
+(107,	'main',	'AIMY_SM_MENU',	'aimy-sm-menu',	'',	'aimy-sm-menu',	'index.php?option=com_aimysitemap',	'component',	1,	1,	1,	229,	NULL,	NULL,	0,	1,	'class:component',	0,	'{}',	53,	66,	0,	'',	1,	NULL,	NULL),
+(108,	'main',	'AIMY_SM_MENU_DASHBOARD',	'aimy-sm-menu-dashboard',	'',	'aimy-sm-menu/aimy-sm-menu-dashboard',	'index.php?option=com_aimysitemap&view=dashboard',	'component',	1,	107,	2,	229,	NULL,	NULL,	0,	1,	'class:component',	0,	'{}',	54,	55,	0,	'',	1,	NULL,	NULL),
+(109,	'main',	'AIMY_SM_MENU_MANAGE',	'aimy-sm-menu-manage',	'',	'aimy-sm-menu/aimy-sm-menu-manage',	'index.php?option=com_aimysitemap&view=urls',	'component',	1,	107,	2,	229,	NULL,	NULL,	0,	1,	'class:component',	0,	'{}',	56,	57,	0,	'',	1,	NULL,	NULL),
+(110,	'main',	'AIMY_SM_MENU_ROBOTSTXT',	'aimy-sm-menu-robotstxt',	'',	'aimy-sm-menu/aimy-sm-menu-robotstxt',	'index.php?option=com_aimysitemap&view=robotstxt',	'component',	1,	107,	2,	229,	NULL,	NULL,	0,	1,	'class:component',	0,	'{}',	58,	59,	0,	'',	1,	NULL,	NULL),
+(111,	'main',	'AIMY_SM_MENU_CRAWL',	'aimy-sm-menu-crawl',	'',	'aimy-sm-menu/aimy-sm-menu-crawl',	'index.php?option=com_aimysitemap&view=crawl',	'component',	1,	107,	2,	229,	NULL,	NULL,	0,	1,	'class:component',	0,	'{}',	60,	61,	0,	'',	1,	NULL,	NULL),
+(112,	'main',	'AIMY_SM_MENU_NOTIFY',	'aimy-sm-menu-notify',	'',	'aimy-sm-menu/aimy-sm-menu-notify',	'index.php?option=com_aimysitemap&view=notify',	'component',	1,	107,	2,	229,	NULL,	NULL,	0,	1,	'class:component',	0,	'{}',	62,	63,	0,	'',	1,	NULL,	NULL),
+(113,	'main',	'JOPTIONS',	'joptions',	'',	'aimy-sm-menu/joptions',	'index.php?option=com_config&view=component&component=com_aimysitemap',	'component',	1,	107,	2,	229,	NULL,	NULL,	0,	1,	'class:component',	0,	'{}',	64,	65,	0,	'',	1,	NULL,	NULL);
 
 DROP TABLE IF EXISTS `dnii8_menu_types`;
 CREATE TABLE `dnii8_menu_types` (
@@ -2028,7 +2112,7 @@ INSERT INTO `dnii8_modules` (`id`, `asset_id`, `title`, `note`, `content`, `orde
 (107,	84,	'Privacy Requests',	'',	'',	1,	'cpanel-privacy',	NULL,	NULL,	NULL,	NULL,	1,	'mod_privacy_dashboard',	1,	1,	'{\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"static\",\"style\":\"0\",\"module_tag\":\"div\",\"bootstrap_size\":\"12\",\"header_tag\":\"h2\",\"header_class\":\"\"}',	1,	'*'),
 (108,	85,	'Privacy Status',	'',	'',	1,	'cpanel-privacy',	NULL,	NULL,	NULL,	NULL,	1,	'mod_privacy_status',	1,	1,	'{\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"static\",\"style\":\"0\",\"module_tag\":\"div\",\"bootstrap_size\":\"12\",\"header_tag\":\"h2\",\"header_class\":\"\"}',	1,	'*'),
 (109,	90,	'Баннер на главной',	'',	NULL,	1,	'slider',	NULL,	NULL,	NULL,	NULL,	1,	'mod_banners',	1,	0,	'{\"target\":1,\"count\":1,\"cid\":0,\"tag_search\":0,\"ordering\":\"0\",\"header_text\":\"\",\"footer_text\":\"\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"style\":\"0\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\"}',	0,	'*'),
-(110,	91,	'Футер',	'',	NULL,	1,	'footer',	49,	'2021-11-27 22:00:01',	NULL,	NULL,	1,	'mod_wst_footer',	1,	1,	'{\"link1_text\":\"\\u041e WST\",\"link1_url\":\"\\/123458\",\"link1_extra_text\":\"\",\"link2_text\":\"\\u0422\\u0435\\u0445\\u043d\\u043e\\u043b\\u043e\\u0433\\u0438\\u0438\",\"link2_url\":\"\",\"link2_extra_text\":\"\",\"link3_text\":\"\\u041a\\u043e\\u043d\\u0442\\u0430\\u043a\\u0442\\u044b\",\"link3_url\":\"\\/contacts\",\"link3_extra_text\":\"<p><i class=\\\"fa fa-phone\\\"> <\\/i> 88002222939<\\/p>\\r\\n<p>\\u0414\\u043b\\u044f \\u044e\\u0440\\u0438\\u0434\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0445 \\u043b\\u0438\\u0446:<\\/p>\\r\\n<p>info@wst-russia.ru<\\/p>\",\"link4_text\":\"\\u0421\\u0435\\u0440\\u0432\\u0438\\u0441\\u043d\\u044b\\u0439 \\u0446\\u0435\\u043d\\u0442\\u0440\",\"link4_url\":\"\",\"link4_extra_text\":\"<p>\\u0433. \\u041c\\u043e\\u0441\\u043a\\u0432\\u0430,<\\/p>\\r\\n<p>\\u041b\\u043e\\u043a\\u043e\\u043c\\u043e\\u0442\\u0438\\u0432\\u043d\\u044b\\u0439 \\u043f\\u0440\\u043e\\u0435\\u0437\\u0434,<\\/p>\\r\\n<p>\\u0434. 19 \\u043e\\u0444\\u0438\\u0441 204<\\/p>\",\"style\":\"0\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\"}',	0,	'*'),
+(110,	91,	'Футер',	'',	NULL,	1,	'footer',	NULL,	NULL,	NULL,	NULL,	1,	'mod_wst_footer',	1,	1,	'{\"link1_text\":\"\\u041e WST\",\"link1_url\":\"\\/about-wst\",\"link1_extra_text\":\"\",\"link2_text\":\"\\u0422\\u0435\\u0445\\u043d\\u043e\\u043b\\u043e\\u0433\\u0438\\u0438\",\"link2_url\":\"\",\"link2_extra_text\":\"\",\"link3_text\":\"\\u041a\\u043e\\u043d\\u0442\\u0430\\u043a\\u0442\\u044b\",\"link3_url\":\"\\/contacts\",\"link3_extra_text\":\"<p><i class=\\\"fa fa-phone\\\"> <\\/i> 88002222939<\\/p>\\r\\n<p>\\u0414\\u043b\\u044f \\u044e\\u0440\\u0438\\u0434\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0445 \\u043b\\u0438\\u0446:<\\/p>\\r\\n<p>info@wst-russia.ru<\\/p>\",\"link4_text\":\"\\u0421\\u0435\\u0440\\u0432\\u0438\\u0441\\u043d\\u044b\\u0439 \\u0446\\u0435\\u043d\\u0442\\u0440\",\"link4_url\":\"\",\"link4_extra_text\":\"<p>\\u0433. \\u041c\\u043e\\u0441\\u043a\\u0432\\u0430,<\\/p>\\r\\n<p>\\u041b\\u043e\\u043a\\u043e\\u043c\\u043e\\u0442\\u0438\\u0432\\u043d\\u044b\\u0439 \\u043f\\u0440\\u043e\\u0435\\u0437\\u0434,<\\/p>\\r\\n<p>\\u0434. 19 \\u043e\\u0444\\u0438\\u0441 204<\\/p>\",\"style\":\"0\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\"}',	0,	'*'),
 (111,	97,	'Избранные товары каталога',	'',	NULL,	1,	'featured',	NULL,	NULL,	NULL,	NULL,	1,	'mod_featured_catalogue_items',	1,	0,	'{\"items_count\":3,\"style\":\"0\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\"}',	0,	'*'),
 (112,	98,	'Бренд перед футером',	'',	NULL,	1,	'pre-footer',	NULL,	NULL,	NULL,	NULL,	1,	'mod_prefooter_brand',	1,	0,	'{\"logo\":\"images\\/ampirus-logo.jpg#joomlaImage:\\/\\/local-images\\/ampirus-logo.jpg?width=387&height=157\",\"brand-text\":\"\\u0410\\u043a\\u043a\\u0443\\u043c\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440\\u044b Amprius \\u2013 \\u043b\\u0443\\u0447\\u0448\\u0430\\u044f \\u044d\\u043d\\u0435\\u0440\\u0433\\u043e\\u0435\\u043c\\u043a\\u043e\\u0441\\u0442\\u044c \\u043e\\u0442 \\u043d\\u0430\\u0434\\u0435\\u0436\\u043d\\u043e\\u0433\\u043e \\u0431\\u0440\\u0435\\u043d\\u0434a\",\"style\":\"0\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\"}',	0,	'*');
 
@@ -2215,7 +2299,8 @@ CREATE TABLE `dnii8_schemas` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO `dnii8_schemas` (`extension_id`, `version_id`) VALUES
-(211,	'4.0.3-2021-09-05');
+(211,	'4.0.3-2021-09-05'),
+(229,	'24.3-1');
 
 DROP TABLE IF EXISTS `dnii8_session`;
 CREATE TABLE `dnii8_session` (
@@ -2402,47 +2487,48 @@ CREATE TABLE `dnii8_updates` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Available Updates';
 
 INSERT INTO `dnii8_updates` (`update_id`, `update_site_id`, `extension_id`, `name`, `description`, `element`, `type`, `folder`, `client_id`, `version`, `data`, `detailsurl`, `infourl`, `changelogurl`, `extra_query`) VALUES
-(165,	1,	211,	'Joomla',	'',	'joomla',	'file',	'',	0,	'4.0.5',	'',	'https://update.joomla.org/core/sts/extension_sts.xml',	'',	'',	''),
-(166,	2,	0,	'Arabic Unitag',	'',	'pkg_ar-AA',	'package',	'',	0,	'4.0.2.1',	'',	'https://update.joomla.org/language/details4/ar-AA_details.xml',	'',	'',	''),
-(167,	2,	0,	'Catalan',	'',	'pkg_ca-ES',	'package',	'',	0,	'4.0.4.2',	'',	'https://update.joomla.org/language/details4/ca-ES_details.xml',	'',	'',	''),
-(168,	2,	0,	'Chinese, Simplified',	'',	'pkg_zh-CN',	'package',	'',	0,	'4.0.4.1',	'',	'https://update.joomla.org/language/details4/zh-CN_details.xml',	'',	'',	''),
-(169,	2,	0,	'Chinese, Traditional',	'',	'pkg_zh-TW',	'package',	'',	0,	'4.0.4.2',	'',	'https://update.joomla.org/language/details4/zh-TW_details.xml',	'',	'',	''),
-(170,	2,	0,	'Czech',	'',	'pkg_cs-CZ',	'package',	'',	0,	'4.0.5.2',	'',	'https://update.joomla.org/language/details4/cs-CZ_details.xml',	'',	'',	''),
-(171,	2,	0,	'Danish',	'',	'pkg_da-DK',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/da-DK_details.xml',	'',	'',	''),
-(172,	2,	0,	'Dutch',	'',	'pkg_nl-NL',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/nl-NL_details.xml',	'',	'',	''),
-(173,	2,	0,	'English, Australia',	'',	'pkg_en-AU',	'package',	'',	0,	'4.0.4.3',	'',	'https://update.joomla.org/language/details4/en-AU_details.xml',	'',	'',	''),
-(174,	2,	0,	'English, Canada',	'',	'pkg_en-CA',	'package',	'',	0,	'4.0.4.4',	'',	'https://update.joomla.org/language/details4/en-CA_details.xml',	'',	'',	''),
-(175,	2,	0,	'English, New Zealand',	'',	'pkg_en-NZ',	'package',	'',	0,	'4.0.4.3',	'',	'https://update.joomla.org/language/details4/en-NZ_details.xml',	'',	'',	''),
-(176,	2,	0,	'English, USA',	'',	'pkg_en-US',	'package',	'',	0,	'4.0.4.3',	'',	'https://update.joomla.org/language/details4/en-US_details.xml',	'',	'',	''),
-(177,	2,	0,	'Finnish',	'',	'pkg_fi-FI',	'package',	'',	0,	'4.0.4.1',	'',	'https://update.joomla.org/language/details4/fi-FI_details.xml',	'',	'',	''),
-(178,	2,	0,	'Flemish',	'',	'pkg_nl-BE',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/nl-BE_details.xml',	'',	'',	''),
-(179,	2,	0,	'French',	'',	'pkg_fr-FR',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/fr-FR_details.xml',	'',	'',	''),
-(180,	2,	0,	'Georgian',	'',	'pkg_ka-GE',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/ka-GE_details.xml',	'',	'',	''),
-(181,	2,	0,	'German',	'',	'pkg_de-DE',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/de-DE_details.xml',	'',	'',	''),
-(182,	2,	0,	'German, Austria',	'',	'pkg_de-AT',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/de-AT_details.xml',	'',	'',	''),
-(183,	2,	0,	'German, Liechtenstein',	'',	'pkg_de-LI',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/de-LI_details.xml',	'',	'',	''),
-(184,	2,	0,	'German, Luxembourg',	'',	'pkg_de-LU',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/de-LU_details.xml',	'',	'',	''),
-(185,	2,	0,	'German, Switzerland',	'',	'pkg_de-CH',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/de-CH_details.xml',	'',	'',	''),
-(186,	2,	0,	'Greek',	'',	'pkg_el-GR',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/el-GR_details.xml',	'',	'',	''),
-(187,	2,	0,	'Hungarian',	'',	'pkg_hu-HU',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/hu-HU_details.xml',	'',	'',	''),
-(188,	2,	0,	'Italian',	'',	'pkg_it-IT',	'package',	'',	0,	'4.0.4.1',	'',	'https://update.joomla.org/language/details4/it-IT_details.xml',	'',	'',	''),
-(189,	2,	0,	'Japanese',	'',	'pkg_ja-JP',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/ja-JP_details.xml',	'',	'',	''),
-(190,	2,	0,	'Norwegian Bokmål',	'',	'pkg_nb-NO',	'package',	'',	0,	'4.0.1.1',	'',	'https://update.joomla.org/language/details4/nb-NO_details.xml',	'',	'',	''),
-(191,	2,	0,	'Persian Farsi',	'',	'pkg_fa-IR',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/fa-IR_details.xml',	'',	'',	''),
-(192,	2,	0,	'Polish',	'',	'pkg_pl-PL',	'package',	'',	0,	'4.0.4.1',	'',	'https://update.joomla.org/language/details4/pl-PL_details.xml',	'',	'',	''),
-(193,	2,	0,	'Portuguese, Brazil',	'',	'pkg_pt-BR',	'package',	'',	0,	'4.0.3.1',	'',	'https://update.joomla.org/language/details4/pt-BR_details.xml',	'',	'',	''),
-(194,	2,	0,	'Portuguese, Portugal',	'',	'pkg_pt-PT',	'package',	'',	0,	'4.0.0-rc4.2',	'',	'https://update.joomla.org/language/details4/pt-PT_details.xml',	'',	'',	''),
-(195,	2,	0,	'Romanian',	'',	'pkg_ro-RO',	'package',	'',	0,	'4.0.3.1',	'',	'https://update.joomla.org/language/details4/ro-RO_details.xml',	'',	'',	''),
-(196,	2,	219,	'Russian',	'',	'pkg_ru-RU',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/ru-RU_details.xml',	'',	'',	''),
-(197,	2,	0,	'Slovak',	'',	'pkg_sk-SK',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/sk-SK_details.xml',	'',	'',	''),
-(198,	2,	0,	'Slovenian',	'',	'pkg_sl-SI',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/sl-SI_details.xml',	'',	'',	''),
-(199,	2,	0,	'Spanish',	'',	'pkg_es-ES',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/es-ES_details.xml',	'',	'',	''),
-(200,	2,	0,	'Swedish',	'',	'pkg_sv-SE',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/sv-SE_details.xml',	'',	'',	''),
-(201,	2,	0,	'Tamil, India',	'',	'pkg_ta-IN',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/ta-IN_details.xml',	'',	'',	''),
-(202,	2,	0,	'Thai',	'',	'pkg_th-TH',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/th-TH_details.xml',	'',	'',	''),
-(203,	2,	0,	'Turkish',	'',	'pkg_tr-TR',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/tr-TR_details.xml',	'',	'',	''),
-(204,	2,	0,	'Ukrainian',	'',	'pkg_uk-UA',	'package',	'',	0,	'4.0.3.2',	'',	'https://update.joomla.org/language/details4/uk-UA_details.xml',	'',	'',	''),
-(205,	2,	0,	'Welsh',	'',	'pkg_cy-GB',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/cy-GB_details.xml',	'',	'',	'');
+(251,	1,	211,	'Joomla',	'',	'joomla',	'file',	'',	0,	'4.0.5',	'',	'https://update.joomla.org/core/sts/extension_sts.xml',	'',	'',	''),
+(252,	2,	0,	'Arabic Unitag',	'',	'pkg_ar-AA',	'package',	'',	0,	'4.0.2.1',	'',	'https://update.joomla.org/language/details4/ar-AA_details.xml',	'',	'',	''),
+(253,	2,	0,	'Catalan',	'',	'pkg_ca-ES',	'package',	'',	0,	'4.0.4.2',	'',	'https://update.joomla.org/language/details4/ca-ES_details.xml',	'',	'',	''),
+(254,	2,	0,	'Chinese, Simplified',	'',	'pkg_zh-CN',	'package',	'',	0,	'4.0.4.1',	'',	'https://update.joomla.org/language/details4/zh-CN_details.xml',	'',	'',	''),
+(255,	2,	0,	'Chinese, Traditional',	'',	'pkg_zh-TW',	'package',	'',	0,	'4.0.4.2',	'',	'https://update.joomla.org/language/details4/zh-TW_details.xml',	'',	'',	''),
+(256,	2,	0,	'Czech',	'',	'pkg_cs-CZ',	'package',	'',	0,	'4.0.5.2',	'',	'https://update.joomla.org/language/details4/cs-CZ_details.xml',	'',	'',	''),
+(257,	2,	0,	'Danish',	'',	'pkg_da-DK',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/da-DK_details.xml',	'',	'',	''),
+(258,	2,	0,	'Dutch',	'',	'pkg_nl-NL',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/nl-NL_details.xml',	'',	'',	''),
+(259,	2,	0,	'English, Australia',	'',	'pkg_en-AU',	'package',	'',	0,	'4.0.4.3',	'',	'https://update.joomla.org/language/details4/en-AU_details.xml',	'',	'',	''),
+(260,	2,	0,	'English, Canada',	'',	'pkg_en-CA',	'package',	'',	0,	'4.0.4.4',	'',	'https://update.joomla.org/language/details4/en-CA_details.xml',	'',	'',	''),
+(261,	2,	0,	'English, New Zealand',	'',	'pkg_en-NZ',	'package',	'',	0,	'4.0.4.3',	'',	'https://update.joomla.org/language/details4/en-NZ_details.xml',	'',	'',	''),
+(262,	2,	0,	'English, USA',	'',	'pkg_en-US',	'package',	'',	0,	'4.0.4.3',	'',	'https://update.joomla.org/language/details4/en-US_details.xml',	'',	'',	''),
+(263,	2,	0,	'Finnish',	'',	'pkg_fi-FI',	'package',	'',	0,	'4.0.4.1',	'',	'https://update.joomla.org/language/details4/fi-FI_details.xml',	'',	'',	''),
+(264,	2,	0,	'Flemish',	'',	'pkg_nl-BE',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/nl-BE_details.xml',	'',	'',	''),
+(265,	2,	0,	'French',	'',	'pkg_fr-FR',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/fr-FR_details.xml',	'',	'',	''),
+(266,	2,	0,	'Georgian',	'',	'pkg_ka-GE',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/ka-GE_details.xml',	'',	'',	''),
+(267,	2,	0,	'German',	'',	'pkg_de-DE',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/de-DE_details.xml',	'',	'',	''),
+(268,	2,	0,	'German, Austria',	'',	'pkg_de-AT',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/de-AT_details.xml',	'',	'',	''),
+(269,	2,	0,	'German, Liechtenstein',	'',	'pkg_de-LI',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/de-LI_details.xml',	'',	'',	''),
+(270,	2,	0,	'German, Luxembourg',	'',	'pkg_de-LU',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/de-LU_details.xml',	'',	'',	''),
+(271,	2,	0,	'German, Switzerland',	'',	'pkg_de-CH',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/de-CH_details.xml',	'',	'',	''),
+(272,	2,	0,	'Greek',	'',	'pkg_el-GR',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/el-GR_details.xml',	'',	'',	''),
+(273,	2,	0,	'Hungarian',	'',	'pkg_hu-HU',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/hu-HU_details.xml',	'',	'',	''),
+(274,	2,	0,	'Italian',	'',	'pkg_it-IT',	'package',	'',	0,	'4.0.4.1',	'',	'https://update.joomla.org/language/details4/it-IT_details.xml',	'',	'',	''),
+(275,	2,	0,	'Japanese',	'',	'pkg_ja-JP',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/ja-JP_details.xml',	'',	'',	''),
+(276,	2,	0,	'Norwegian Bokmål',	'',	'pkg_nb-NO',	'package',	'',	0,	'4.0.1.1',	'',	'https://update.joomla.org/language/details4/nb-NO_details.xml',	'',	'',	''),
+(277,	2,	0,	'Persian Farsi',	'',	'pkg_fa-IR',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/fa-IR_details.xml',	'',	'',	''),
+(278,	2,	0,	'Polish',	'',	'pkg_pl-PL',	'package',	'',	0,	'4.0.4.1',	'',	'https://update.joomla.org/language/details4/pl-PL_details.xml',	'',	'',	''),
+(279,	2,	0,	'Portuguese, Brazil',	'',	'pkg_pt-BR',	'package',	'',	0,	'4.0.3.1',	'',	'https://update.joomla.org/language/details4/pt-BR_details.xml',	'',	'',	''),
+(280,	2,	0,	'Portuguese, Portugal',	'',	'pkg_pt-PT',	'package',	'',	0,	'4.0.0-rc4.2',	'',	'https://update.joomla.org/language/details4/pt-PT_details.xml',	'',	'',	''),
+(281,	2,	0,	'Romanian',	'',	'pkg_ro-RO',	'package',	'',	0,	'4.0.3.1',	'',	'https://update.joomla.org/language/details4/ro-RO_details.xml',	'',	'',	''),
+(282,	2,	219,	'Russian',	'',	'pkg_ru-RU',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/ru-RU_details.xml',	'',	'',	''),
+(283,	2,	0,	'Slovak',	'',	'pkg_sk-SK',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/sk-SK_details.xml',	'',	'',	''),
+(284,	2,	0,	'Slovenian',	'',	'pkg_sl-SI',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/sl-SI_details.xml',	'',	'',	''),
+(285,	2,	0,	'Spanish',	'',	'pkg_es-ES',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/es-ES_details.xml',	'',	'',	''),
+(286,	2,	0,	'Swedish',	'',	'pkg_sv-SE',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/sv-SE_details.xml',	'',	'',	''),
+(287,	2,	0,	'Tamil, India',	'',	'pkg_ta-IN',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/ta-IN_details.xml',	'',	'',	''),
+(288,	2,	0,	'Thai',	'',	'pkg_th-TH',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/th-TH_details.xml',	'',	'',	''),
+(289,	2,	0,	'Turkish',	'',	'pkg_tr-TR',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/tr-TR_details.xml',	'',	'',	''),
+(290,	2,	0,	'Ukrainian',	'',	'pkg_uk-UA',	'package',	'',	0,	'4.0.3.2',	'',	'https://update.joomla.org/language/details4/uk-UA_details.xml',	'',	'',	''),
+(291,	2,	0,	'Welsh',	'',	'pkg_cy-GB',	'package',	'',	0,	'4.0.5.1',	'',	'https://update.joomla.org/language/details4/cy-GB_details.xml',	'',	'',	''),
+(292,	4,	0,	'Aimy Sitemap',	'Aimy Sitemap v30.0',	'com_aimysitemap',	'component',	'',	0,	'30.0',	'',	'http://updates.aimy-extensions.com/joomla/com_aimysitemap.xml',	'https://www.aimy-extensions.com/news/aimy-sitemap/152-aimy-sitemap-v30-0-whats-new.html',	NULL,	'');
 
 DROP TABLE IF EXISTS `dnii8_update_sites`;
 CREATE TABLE `dnii8_update_sites` (
@@ -2459,9 +2545,10 @@ CREATE TABLE `dnii8_update_sites` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Update Sites';
 
 INSERT INTO `dnii8_update_sites` (`update_site_id`, `name`, `type`, `location`, `enabled`, `last_check_timestamp`, `extra_query`, `checked_out`, `checked_out_time`) VALUES
-(1,	'Joomla! Core',	'collection',	'https://update.joomla.org/core/list.xml',	1,	1639928506,	'',	NULL,	NULL),
-(2,	'Accredited Joomla! Translations',	'collection',	'https://update.joomla.org/language/translationlist_4.xml',	1,	1639928506,	'',	NULL,	NULL),
-(3,	'Joomla! Update Component Update Site',	'extension',	'https://update.joomla.org/core/extensions/com_joomlaupdate.xml',	1,	1639928506,	'',	NULL,	NULL);
+(1,	'Joomla! Core',	'collection',	'https://update.joomla.org/core/list.xml',	1,	1640353701,	'',	NULL,	NULL),
+(2,	'Accredited Joomla! Translations',	'collection',	'https://update.joomla.org/language/translationlist_4.xml',	1,	1640353702,	'',	NULL,	NULL),
+(3,	'Joomla! Update Component Update Site',	'extension',	'https://update.joomla.org/core/extensions/com_joomlaupdate.xml',	1,	1640353703,	'',	NULL,	NULL),
+(4,	'Aimy Sitemap Update Server',	'extension',	'http://updates.aimy-extensions.com/joomla/com_aimysitemap.xml',	1,	1640353887,	'',	NULL,	NULL);
 
 DROP TABLE IF EXISTS `dnii8_update_sites_extensions`;
 CREATE TABLE `dnii8_update_sites_extensions` (
@@ -2474,7 +2561,8 @@ INSERT INTO `dnii8_update_sites_extensions` (`update_site_id`, `extension_id`) V
 (1,	211),
 (2,	212),
 (2,	219),
-(3,	24);
+(3,	24),
+(4,	229);
 
 DROP TABLE IF EXISTS `dnii8_usergroups`;
 CREATE TABLE `dnii8_usergroups` (
@@ -2527,7 +2615,7 @@ CREATE TABLE `dnii8_users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO `dnii8_users` (`id`, `name`, `username`, `email`, `password`, `block`, `sendEmail`, `registerDate`, `lastvisitDate`, `activation`, `params`, `lastResetTime`, `resetCount`, `otpKey`, `otep`, `requireReset`) VALUES
-(49,	'Wstadmin',	'Wstadmin',	'dmitri.pantelei@gmail.com',	'$2y$10$dfCyxZ9kkWKatu/71qEzk.8EEwQ3diWA780YIG.cC3cusjHjWehN.',	0,	1,	'2021-11-14 18:22:07',	'2021-12-19 15:41:44',	'0',	'',	NULL,	0,	'',	'',	0);
+(49,	'Wstadmin',	'Wstadmin',	'dmitri.pantelei@gmail.com',	'$2y$10$dfCyxZ9kkWKatu/71qEzk.8EEwQ3diWA780YIG.cC3cusjHjWehN.',	0,	1,	'2021-11-14 18:22:07',	'2021-12-24 14:13:42',	'0',	'',	NULL,	0,	'',	'',	0);
 
 DROP TABLE IF EXISTS `dnii8_user_keys`;
 CREATE TABLE `dnii8_user_keys` (
@@ -2717,4 +2805,12 @@ INSERT INTO `dnii8_workflow_transitions` (`id`, `asset_id`, `ordering`, `workflo
 (6,	63,	6,	1,	1,	'UNFEATURE',	'',	-1,	1,	'{\"featuring\":\"0\"}',	NULL,	NULL),
 (7,	64,	7,	1,	1,	'PUBLISH_AND_FEATURE',	'',	-1,	1,	'{\"publishing\":\"1\",\"featuring\":\"1\"}',	NULL,	NULL);
 
--- 2021-12-19 16:28:11
+DROP TABLE IF EXISTS `_phinxlog`;
+CREATE TABLE `_phinxlog` (
+  `version` bigint(20) NOT NULL,
+  `migration_name` varchar(100) DEFAULT NULL,
+  `start_time` timestamp NULL DEFAULT NULL,
+  `end_time` timestamp NULL DEFAULT NULL,
+  `breakpoint` tinyint(1) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`version`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
