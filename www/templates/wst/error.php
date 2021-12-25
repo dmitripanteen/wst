@@ -1,33 +1,55 @@
 <?php defined('_JEXEC') or die;
 
+use Joomla\CMS\Factory;
 /** @var JDocumentError $this */
 
-$template_url = $this->baseurl.'/templates/'.$this->template.'/';
+$templateUrl = $this->baseurl . '/templates/' . $this->template . '/';
+$this->addScript($templateUrl . '/assets/js/main.js?v=1');
+$document = Factory::getDocument();
+$document->setTitle('Страница не найдена');
 ?>
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="<?= $this->language; ?>" dir="<?= $this->direction; ?>"
+      xmlns:jdoc="http://www.w3.org/2001/XInclude">
 <head>
-    <meta charset="utf-8" />
-    <base href="/" />
-    <meta name="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="copyright" content="Driving Skills For Life" />
-	<title><?php echo $this->error->getCode(); ?> - <?php echo $this->title; ?></title>
-    <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
-    <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
-    <link href="<?=$template_url;?>/images/wst-logo.svg"
-          rel="shortcut icon" type="image/vnd.microsoft.icon" />
-    <link href="<?=$template_url;?>assets/css/main.css?v=1" rel="stylesheet"/>
-    <script src="<?=$template_url;?>assets/js/main.js?v=1"></script>
+    <jdoc:include type="head"/>
 </head>
-<body>
-<div>
-    <?=JText::_('JERROR_ERROR');?> <?=$this->error->getCode();?>: <?=$this->error->getMessage();?>
-    <pre style="white-space: pre-line;">
-                                    Erorr <?=$this->error->getCode();?>: <?=$this->error->getMessage();?><br>
-                                    File: <?=$this->error->getFile();?> (<?=$this->error->getLine();?>)<br>
-        <?=$this->error->getTraceAsString();?>
-		                    </pre>
+<body class="content-page">
+<div class="page-main-content">
+    <header>
+        <div id="mainmenu">
+            <a href="/">
+                <img class="header-logo"
+                     src="/templates/wst/images/wst-logo.svg">
+            </a>
+            <jdoc:include type="modules" name="navbar"/>
+        </div>
+    </header>
+    <div class="page-404">
+        <div class="image-404">
+            <img src="/images/404-image.png">
+        </div>
+        <div class="text-404">
+            <h2>404</h2>
+            <div class="text-inner main">
+                Страница не найдена!
+            </div>
+            <div class="text-inner">
+                Возможно, вы набрали что-то неправильно в адресной строке<br>
+                или страница была перемещена.
+            </div>
+            <div class="text-inner link">
+                <a href="/">На главную</a>
+            </div>
+        </div>
+    </div>
 </div>
+<jdoc:include type="modules" name="pre-footer"/>
+<footer>
+    <div class="container">
+        <jdoc:include type="modules" name="footer"/>
+    </div>
+</footer>
+<? $this->addStyleSheet($templateUrl . '/assets/css/main.css?v=1'); ?>
 </body>
 </html>
