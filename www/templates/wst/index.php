@@ -30,6 +30,7 @@ $user = JFactory::getUser();
 <html lang="<?= $this->language; ?>" dir="<?= $this->direction; ?>" xmlns:jdoc="http://www.w3.org/2001/XInclude">
 <head>
 	<jdoc:include type="head" />
+    <jdoc:include type="modules" name="analytics"/>
 </head>
 <body class="<?php if(! $homepage):?>content-page<?php endif;?> page-option-<?=$app->input->get('option');?> page-view-<?=$app->input->get('view');?>">
 	<div class="page-main-content<?php if ($homepage):?> homepage<?php endif;

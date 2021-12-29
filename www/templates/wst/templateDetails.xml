@@ -19,6 +19,7 @@
         <position>featured</position>
         <position>pre-footer</position>
         <position>footer</position>
+        <position>analytics</position>
     </positions>
     <language>
         <language tag="en-GB">en-GB/en-GB.tpl_wst.ini</language>

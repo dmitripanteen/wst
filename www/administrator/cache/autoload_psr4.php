@@ -120,6 +120,7 @@ return [
 	'Joomla\\Plugin\\User\\Token\\' => [JPATH_PLUGINS . '/user/token/src'],
 	'Wst\\Component\\Catalogue\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_catalogue/src'],
 	'Wst\\Component\\Catalogue\\Site\\' => [JPATH_SITE . '/components/com_catalogue/src'],
+	'Wst\\Module\\Analytics\\Site\\' => [JPATH_SITE . '/modules/mod_analytics/src'],
 	'Wst\\Module\\FeaturedCatalogueItems\\Site\\' => [JPATH_SITE . '/modules/mod_featured_catalogue_items/src'],
 	'Wst\\Module\\PrefooterBrand\\Site\\' => [JPATH_SITE . '/modules/mod_prefooter_brand/src'],
 ];
