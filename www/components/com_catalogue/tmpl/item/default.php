@@ -3,6 +3,7 @@
 defined('_JEXEC') or die('Restricted Access');
 ?>
 <div class="catalogue-body single-item">
+    <h2 class="item-title-mobile"><?php echo $this->item->title;?></h2>
     <div class="images">
         <ul id="catalogue-slider" class="gallery">
             <?php foreach ($this->item->images as $image):?>

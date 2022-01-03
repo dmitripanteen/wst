@@ -37,8 +37,18 @@ $user = JFactory::getUser();
 	?>">
         <jdoc:include type="message" />
         <header>
+            <div class="mobile-menu-line">
+                <a class="mobile-logo" href="/">
+                    <img class="header-logo"
+                         src="/templates/wst/images/wst-logo.svg">
+                </a>
+                <button type="button" class="navbar-toggle">
+                    <i class="ti ti-menu menu-open"></i>
+                    <i class="ti ti-close menu-close"></i>
+                </button>
+            </div>
             <div id="mainmenu">
-                <a href="/">
+                <a class="desktop-logo" href="/">
                     <img class="header-logo"
                          src="/templates/wst/images/wst-logo.svg">
                 </a>

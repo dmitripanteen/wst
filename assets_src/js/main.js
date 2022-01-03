@@ -1,3 +1,4 @@
+//=require ../../node_modules/jquery/dist/jquery.min.js
 //=require ../../node_modules/lightslider/dist/js/lightslider.js
 
 $(document).ready(function() {
@@ -45,4 +46,20 @@ $(document).ready(function() {
         onBeforeNextSlide: function($el,scene) {},
         onBeforePrevSlide: function($el,scene) {}
     });
+
+    function toggleMenu() {
+        if ($('#mainmenu').hasClass('opened')) {
+            $('#mainmenu').removeClass('opened');
+            $('.menu-close').hide();
+            $('.menu-open').show();
+        } else {
+            $('#mainmenu').addClass('opened');
+            $('.menu-close').show();
+            $('.menu-open').hide();
+        }
+    }
+    $('.navbar-toggle').click(function () {
+        toggleMenu();
+    });
+
 });
