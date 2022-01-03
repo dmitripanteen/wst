@@ -2,7 +2,7 @@
 
 use Phinx\Migration\AbstractMigration;
 
-class InitializeJoomlaV404 extends AbstractMigration
+class InitializeJoomlaV405 extends AbstractMigration
 {
     public function up()
     {
