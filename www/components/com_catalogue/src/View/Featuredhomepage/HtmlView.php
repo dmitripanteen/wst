@@ -1,6 +1,6 @@
 <?php
 
-namespace Wst\Component\Catalogue\Site\View\FeaturedHomepage;
+namespace Wst\Component\Catalogue\Site\View\Featuredhomepage;
 
 defined('_JEXEC') or die;
 
