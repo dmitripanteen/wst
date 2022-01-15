@@ -41,6 +41,16 @@ $document->setTitle('Страница не найдена');
             <div class="text-inner link">
                 <a href="/">На главную</a>
             </div>
+            <?php if ($this->debug): ?>
+                <div>
+                    <?=JText::_('JERROR_ERROR');?> <?=$this->error->getCode();?>: <?=$this->error->getMessage();?>
+                    <pre style="white-space: pre-line;">
+                                    Erorr <?=$this->error->getCode();?>: <?=$this->error->getMessage();?><br>
+                                    File: <?=$this->error->getFile();?> (<?=$this->error->getLine();?>)<br>
+                        <?=$this->error->getTraceAsString();?>
+		                    </pre>
+                </div>
+            <?php endif; ?>
         </div>
     </div>
 </div>
