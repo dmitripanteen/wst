@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" client="site">
+    <name>WST Template</name>
+    <version>1.0</version>
+    <creationDate>November 2021</creationDate>
+    <author>Dmitri Pantelei</author>
+    <description>WST website template</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>template_preview.png</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+    </files>
+    <positions>
+        <position>navbar</position>
+        <position>slider</position>
+        <position>featured</position>
+        <position>pre-footer</position>
+        <position>footer</position>
+        <position>analytics</position>
+    </positions>
+    <language>
+        <language tag="en-GB">en-GB/en-GB.tpl_wst.ini</language>
+        <language tag="en-GB">en-GB/en-GB.tpl_wst.sys.ini</language>
+    </language>
+</extension>

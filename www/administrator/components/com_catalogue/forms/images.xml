@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addfieldprefix="Wst\Component\Catalogue\Administrator\Field">
+    <fieldset name="details">
+        <field
+                name="id"
+                label="JGLOBAL_FIELD_ID_LABEL"
+                default="0"
+                readonly="true"
+                class="readonly"
+                type="hidden"
+        />
+        <field
+                name="url"
+                type="media"
+                label="COM_CATALOGUE_FIELD_IMAGE_LABEL"
+                directory="catalogue_items"
+                hide_none="1"
+        />
+        <field
+                name="published"
+                type="list"
+                label="JSTATUS"
+                class="form-select-color-state"
+                size="1"
+                default="1"
+                validate="options"
+        >
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+        </field>
+        <field
+                name="is_main_image"
+                type="list"
+                label="COM_CATALOGUE_IS_MAIN_IMAGE_LABEL"
+                class="form-select-color-state"
+                size="1"
+                default="0"
+                validate="options"
+        >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+    </fieldset>
+</form>

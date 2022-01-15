@@ -1,0 +1,331 @@
+@media (max-width: 840px) {
+  .catalogue-body {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 65px;
+    background: #fff;
+    position: fixed;
+    z-index: 999;
+    .mobile-menu-line {
+      position: fixed;
+      width: calc(~'100% - 30px');
+      z-index: 999;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      background: #fff;
+      border-bottom: 1px solid #000;
+      .mobile-logo {
+        display: block;
+        height: 35px;
+        .header-logo {
+          max-height: 100%;
+        }
+      }
+      .navbar-toggle {
+        width: 35px;
+        height: 35px;
+        background: 0 0;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        i {
+          font-size: 31px;
+          color: #D61C38;
+          &.menu-close {
+            display: none;
+          }
+        }
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+    #mainmenu {
+      //display: none;
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+      background: #fff;
+      margin-top: 65px;
+      z-index: 99;
+      transform: translateY(-100%);
+      transition: transform 0.5s ease-out;
+      border-bottom: 1px solid #ebebeb;
+      &.opened {
+        transform: translateY(0);
+      }
+      ul.nav {
+        width: 100%;
+        margin: 0 15px;
+        li {
+          margin: 0;
+          padding: 15px 0;
+          width: 100%;
+          color: #000;
+          text-align: left;
+          border-bottom: 1px solid #ebebeb;
+          font-size: 16px;
+          line-height: 1em;
+          a {
+            color: #000;
+          }
+          &:last-of-type {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+    .desktop-logo {
+      display: none;
+    }
+  }
+
+  #slider {
+    height: 265px;
+    &.article-slider {
+      height: 265px;
+    }
+  }
+
+  .article {
+    &.full-width {
+      width: calc(~'100% - 30px');
+      max-width: calc(~'100% - 30px');
+      min-width: calc(~'100% - 30px');
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 30px;
+      flex-direction: column;
+      .article-image {
+        text-align: center;
+      }
+      .article-text {
+        margin-top: 30px;
+        h1 {
+          text-align: center;
+        }
+      }
+    }
+    &.contacts {
+      width: calc(~'100% - 30px');
+      max-width: calc(~'100% - 30px');
+      min-width: calc(~'100% - 30px');
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 30px;
+      flex-direction: column;
+      .contact-data {
+        flex: 1;
+      }
+      .contact-map {
+        flex: 1;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767.9px) {
+  .catalogue-body {
+    padding: 0 15px;
+    width: calc(~'100% - 30px');
+    max-width: calc(~'100% - 30px');
+    min-width: calc(~'100% - 30px');
+    .items {
+      flex-direction: column;
+      &.featured {
+        .catalogue-item {
+          .item-title {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        }
+      }
+    }
+    &.single-item {
+      padding-top: 95px;
+      padding-bottom: 95px;
+      flex-direction: column;
+      .item-title-mobile {
+        width: 100%;
+        text-align: center;
+      }
+      .item-data {
+        h2 {
+          display: none;
+        }
+        .description {
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .homepage-art {
+    height: 100px;
+  }
+
+  .pre-footer {
+    height: auto;
+    padding: 30px 0;
+    .container {
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+      flex-direction: column;
+      .image {
+        max-width: 50%;
+        img {
+          max-width: 100%;
+        }
+      }
+      .brand-text {
+        font-size: 18px;
+      }
+    }
+  }
+
+  footer {
+    height: auto;
+    padding-top: 30px;
+    .container {
+      width: calc(~'100% - 30px');
+      min-width: calc(~'100% - 30px');
+      max-width: calc(~'100% - 30px');
+      padding-left: 15px;
+      padding-right: 15px;
+      flex-direction: column;
+      .footer-col {
+        padding: 0 0 30px 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .catalogue-body {
+    &.single-item {
+      .item-title-mobile {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 768.1px) {
+  header {
+    .mobile-menu-line {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+  .catalogue-body {
+    .items {
+      &.featured {
+        .catalogue-item {
+          .item-title {
+            height: 112px;
+          }
+        }
+      }
+    }
+  }
+
+  .pre-footer {
+    height: auto;
+    .container {
+      .image {
+        max-width: 70%;
+        img {
+          max-width: 100%;
+        }
+      }
+      .brand-text {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 839.9px) {
+  header {
+    #mainmenu {
+      min-width: auto;
+    }
+  }
+
+  .homepage-art {
+    height: 150px;
+  }
+
+  .pre-footer {
+    .container {
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .article {
+    &.full-width, &.contacts {
+      min-width: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  footer {
+    height: auto;
+    .container {
+      width: calc(~'100% - 30px');
+      min-width: calc(~'100% - 30px');
+      max-width: calc(~'100% - 30px');
+      padding-left: 15px;
+      padding-right: 15px;
+      flex-wrap: wrap;
+      .footer-col {
+        flex: 50%;
+        padding: 0 0 50px 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 840px) and (max-width: 1023.9px) {
+  .homepage-art {
+    height: 190px;
+  }
+
+  footer {
+    .container {
+      .footer-col {
+        padding: 0 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768.1px) and (max-width: 1070px) {
+  header {
+    #mainmenu {
+      ul {
+        &.nav {
+          li {
+            margin: 41px 15px;
+          }
+        }
+      }
+    }
+  }
+}

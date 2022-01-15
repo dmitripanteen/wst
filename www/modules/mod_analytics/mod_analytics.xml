@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+	<name>mod_analytics</name>
+	<author>Dmitri Pantelei</author>
+	<creationDate>December 2021</creationDate>
+	<version>1.0.0</version>
+	<description>MOD_ANALYTICS_XML_DESCRIPTION</description>
+	<namespace path="src">Wst\Module\Analytics</namespace>
+	<files>
+		<filename module="mod_analytics">mod_analytics.php</filename>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/mod_analytics.ini</language>
+		<language tag="en-GB">language/en-GB/mod_analytics.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/mod_analytics.ini</language>
+		<language tag="ru-RU">language/ru-RU/mod_analytics.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="code"
+					type="textarea"
+					label="MOD_ANALYTICS_CODE_LABEL"
+					rows="15"
+					filter="raw"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade">
+<name>com_catalogue</name>
+<author>Dmitri Pantelei</author>
+<creationDate>December 2021</creationDate>
+<version>4.0.0</version>
+<description>COM_CATALOGUE_XML_DESCRIPTION</description>
+<namespace path="src">Wst\Component\Catalogue</namespace>
+<administration>
+    <menu link="index.php?option=com_catalogue">COM_CATALOGUE_MENU</menu>
+    <files folder="admin">
+        <filename>catalogue.xml</filename>
+        <folder>forms</folder>
+        <folder>helpers</folder>
+        <folder>layouts</folder>
+        <folder>services</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
+    <files folder="site/">
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
+    <languages folder="admin">
+        <language tag="en-GB">language/en-GB/com_catalogue.ini</language>
+        <language tag="en-GB">language/en-GB/com_catalogue.sys.ini</language>
+        <language tag="ru-RU">language/ru-RU/com_catalogue.ini</language>
+        <language tag="ru-RU">language/ru-RU/com_catalogue.sys.ini</language>
+    </languages>
+</administration>
+</extension>

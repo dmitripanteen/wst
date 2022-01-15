@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_CATALOGUE_FEATURED_HOMEPAGE_VIEW_DEFAULT_TITLE"
+			option="COM_CATALOGUE_FEATURED_HOMEPAGE_VIEW_DEFAULT_OPTION">
+		<help
+			key = "Menu_Item:_Catalogue_Items"
+		/>
+		<message>
+			<![CDATA[COM_CATALOGUE_FEATURED_HOMEPAGE_VIEW_DEFAULT_DESC]]>
+		</message>
+	</layout>
+</metadata>

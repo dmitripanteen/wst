@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout
+            title="COM_CONTENT_ARTICLE_VIEW_CONTACT_TITLE"
+            option="COM_CONTENT_ARTICLE_VIEW_DEFAULT_OPTION">
+        <message>
+            <![CDATA[COM_CONTENT_ARTICLE_VIEW_CONTACT_DESC]]>
+        </message>
+    </layout>
+
+    <fields name="request">
+        <fieldset name="request"
+                  addfieldprefix="Joomla\Component\Content\Administrator\Field">
+
+            <field
+                    name="id"
+                    type="modal_article"
+                    label="COM_CONTENT_FIELD_SELECT_ARTICLE_LABEL"
+                    required="true"
+                    select="true"
+                    new="true"
+                    edit="true"
+                    clear="true"
+            />
+        </fieldset>
+    </fields>
+
+    <fields name="params">
+
+        <fieldset name="basic"
+                  label="COM_CONTENT_ATTRIBS_ARTICLE_SETTINGS_LABEL"
+                  addfieldprefix="Joomla\Component\Content\Administrator\Field"
+        >
+
+            <field
+                    name="phone"
+                    type="text"
+                    label="COM_CONTENT_FIELD_CONTACT_PHONE_LABEL"
+                    description="COM_CONTENT_DONT_SHOW_IF_EMPTY_DESC"
+            />
+            <field
+                    name="email"
+                    type="text"
+                    label="COM_CONTENT_FIELD_CONTACT_EMAIL_LABEL"
+                    description="COM_CONTENT_DONT_SHOW_IF_EMPTY_DESC"
+            />
+            <field
+                    name="address"
+                    type="text"
+                    label="COM_CONTENT_FIELD_CONTACT_ADDRESS_LABEL"
+                    description="COM_CONTENT_DONT_SHOW_IF_EMPTY_DESC"
+            />
+            <field
+                    name="map"
+                    type="textarea"
+                    label="COM_CONTENT_FIELD_CONTACT_MAP_LABEL"
+                    description="COM_CONTENT_DONT_SHOW_IF_EMPTY_DESC"
+                    filter="raw"
+                    cols="5"
+                    rows="10"
+            />
+        </fieldset>
+    </fields>
+</metadata>

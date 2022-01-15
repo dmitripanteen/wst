@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+	<name>mod_prefooter_brand</name>
+	<author>Dmitri Pantelei</author>
+	<creationDate>December 2021</creationDate>
+	<version>1.0.0</version>
+	<description>MOD_PREFOOTER_BRAND_XML_DESCRIPTION</description>
+	<namespace path="src">Wst\Module\PrefooterBrand</namespace>
+	<files>
+		<filename module="mod_prefooter_brand">mod_prefooter_brand.php</filename>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/mod_prefooter_brand.ini</language>
+		<language tag="en-GB">language/en-GB/mod_prefooter_brand.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/mod_prefooter_brand.ini</language>
+		<language tag="ru-RU">language/ru-RU/mod_prefooter_brand.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="logo"
+					type="media"
+					directory="images"
+					hide_none="1"
+					label="MOD_PREFOOTER_BRAND_LOGO_LABEL"
+				/>
+				<field
+						name="brand-text"
+						type="textarea"
+						label="MOD_PREFOOTER_BRAND_BRAND_TEXT_LABEL"
+						required="true"
+						cols="10"
+						rows="3"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
