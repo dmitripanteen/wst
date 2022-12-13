@@ -77,6 +77,6 @@ $user = JFactory::getUser();
             <jdoc:include type="modules" name="footer"/>
 		</div>
 	</footer>
-<?php $this->addStyleSheet($template.'/assets/css/main.css?v=1');?>
+<?php $this->addStyleSheet($template.'/assets/css/main.css?v=2');?>
 </body>
 </html>

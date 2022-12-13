@@ -33,30 +33,31 @@ defined('_JEXEC') or die('Restricted Access');
             <?php endforeach;?>
         </div>
         <div class="links">
-            <a class="link ozon-link"
-               href="<?php echo $this->item->ozon_link ?: 'https://www.ozon.ru/';?>"
-               target="_blank">
-                <i class="ti ti-shopping-cart"></i>
-                <span>ozon</span>
-            </a>
-            <a class="link wildberries-link"
-               href="<?php echo $this->item->wildberries_link ?: 'https://www.wildberries.ru/';?>"
-               target="_blank">
-                <i class="ti ti-shopping-cart"></i>
-                <span>wildberries</span>
-            </a>
-            <a class="link aliexpress-link"
-               href="<?php echo $this->item->aliexpress_link ?: 'https://best.aliexpress.ru/?lan=ru';?>"
-               target="_blank">
-                <i class="ti ti-shopping-cart"></i>
-                <span>aliexpress</span>
-            </a>
-            <a class="link cdek-link"
-               href="<?php echo $this->item->cdek_link ?: 'https://cdek.market/';?>"
-               target="_blank">
-                <i class="ti ti-shopping-cart"></i>
-                <span>cdek.market</span>
-            </a>
+            <div class="link-section">
+                <p class="link-title">Для розничных покупателей</p>
+                <a class="link"
+                   href="https://4restik.com/"
+                   target="_blank"
+                >
+                    <i class="ti ti-shopping-cart"></i>
+                    <span>купить</span>
+                </a>
+            </div>
+            <div class="link-section">
+                <p class="link-title">Для оптовых покупателей</p>
+                <p>
+                    <a class="text-link"
+                       href="mailto:sales@wst-russia.ru"
+                       target="_blank"
+                    >sales@wst-russia.ru</a>
+                </p>
+                <p>
+                    <a class="text-link"
+                       href="tel:+74955057293"
+                       target="_blank"
+                    >+7 (495) 505-72-93</a>
+                </p>
+            </div>
         </div>
     </div>
 </div>
