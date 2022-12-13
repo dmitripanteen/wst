@@ -124,16 +124,31 @@
       }
       .links {
         margin-top: 54px;
+        .link-section{
+          margin-bottom: 20px;
+          .link-title{
+            font-size: 20px;
+            font-family: 'Montserrat SemiBold';
+          }
+          .text-link{
+            display: block;
+            text-decoration: none;
+            &:hover{
+              color: #D61C38;
+            }
+          }
+        }
         .link {
           display: block;
           position: relative;
           width: 203px;
           height: 38px;
           margin-bottom: 18px;
-          background: #C4C4C4;
+          background: #D61C38;
           border-radius: 20px;
           text-align: center;
           text-decoration: none;
+          color: #fff;
           i {
             position: absolute;
             top: 7px;
@@ -147,7 +162,7 @@
             font-size: 12px;
           }
           &:hover {
-            background: #D3D3D3;
+            background: #b92c42;
           }
         }
       }
