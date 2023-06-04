@@ -35,13 +35,12 @@ defined('_JEXEC') or die('Restricted Access');
         <div class="links">
             <div class="link-section">
                 <p class="link-title">Для розничных покупателей</p>
-                <a class="link"
-                   href="https://4restik.com/"
-                   target="_blank"
-                >
-                    <i class="ti ti-shopping-cart"></i>
-                    <span>купить</span>
-                </a>
+                <p>
+                    <a class="text-link"
+                       href="mailto:info@wst-russia.ru"
+                       target="_blank"
+                    >info@wst-russia.ru</a>
+                </p>
             </div>
             <div class="link-section">
                 <p class="link-title">Для оптовых покупателей</p>
